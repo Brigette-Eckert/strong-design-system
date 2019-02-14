@@ -1,0 +1,3 @@
+---
+title: featured-article-card
+---

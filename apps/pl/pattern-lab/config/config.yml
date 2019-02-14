@@ -62,6 +62,7 @@ plugins:
           - ../../../source/default/_patterns/01-atoms/button
           - ../../../source/default/_patterns/01-atoms/dropdown
           - ../../../source/default/_patterns/01-atoms/grid
+          - ../../../source/default/_patterns/01-atoms/icon-button
           - ../../../source/default/_patterns/01-atoms/image
           - ../../../source/default/_patterns/01-atoms/list-group
           - ../../../source/default/_patterns/01-atoms/svgicon
@@ -70,6 +71,7 @@ plugins:
           - ../../../source/default/_patterns/02-molecules
           - ../../../source/default/_patterns/02-molecules/card
           - ../../../source/default/_patterns/02-molecules/carousel
+          - ../../../source/default/_patterns/02-molecules/featured-article-card
           - ../../../source/default/_patterns/02-molecules/jumbotron
           - ../../../source/default/_patterns/02-molecules/nav
           - ../../../source/default/_patterns/02-molecules/pagination

@@ -60,7 +60,7 @@ PAGES
      //setup as vars in _colors.scss (protons/non-printing/_colors.scss)
     
     
-    //NOT working 
+      //if mapping to bootstrap - name can't have '--' so changed $c-orange--light to $c-tangerine
       // copy colors to _bootstap-overrides.scss in non priting if you want to see in demo  
       
       ```
@@ -69,10 +69,39 @@ PAGES
         'light orange': $c-orange--light,
         'primary orange': $c-orange--primary,
       );
+      
+      How to remove bootstrap colors? 
       ```
 * Setup Fonts
 
-* Build a compontent
+
+* Setup up images
+  rip out what you dont need from imageStyles.yml,/ add change what you need 
+  
+
+* Build a component
+
+  ie. small icon button compontent
+  
+  1.  npm run new
+      - choose design system, (default was only choice for now) 
+      -choose where this compontent will live:  (can it be broken down into smaller pieces )
+      -usually choose ./ for new compontent to live
+      - viola new compontent
+     
+    
+    
+   Demo Files: 
+   
+   Non Demo Files: 
+   
+   
+       
+
+
+//troubleshhotim 
+
+   dont see changes ...check console log often a twig error
 * Build a component that uses another component
 
 
