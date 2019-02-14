@@ -1,0 +1,38 @@
+{#
+/**
+ * @file
+ * featured-article-grid
+ *
+ * Available variables for featured-article-grid:
+ *    - featured_article_grid.variable_name [variable_type]: Description of the variable. Example below.
+ *    - featured_article_grid.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+<div class="featured-article-grid">
+  <h2 class="featured-article-grid__headline"> {{ featured_article_grid.headline }}</h2>
+
+  {% block grid %}
+    {% embed '@atoms/_grid.twig' with {
+      container: true,
+      layout: '3-up'
+    } %}
+      {% block content %}
+        {% for card in featured_article_grid.cards %}
+          <div class=" {{ col_classes }}">
+            {% include '@molecules/_featured-article-card.twig' with {
+              featured_article_card: card
+            } %}
+          </div>
+        {% endfor %}
+      {% endblock %}
+    {% endembed %}
+  {% endblock %}
+
+
+  <button type="button" class="btn btn-orange featured-article-grid__button">
+    <i class="fas fa-file" aria-hidden="true"></i>
+   {{ featured_article_grid.button_text | upper}}
+  </button>
+
+</div>

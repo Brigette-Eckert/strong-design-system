@@ -27,6 +27,7 @@ $letter-spacing: 4px;
   font-size: $fs--l;
   letter-spacing: $letter-spacing;
   font-weight: $fw--400;
+  margin: 0 0 24px 0;
 }
 
 @mixin h3() {
@@ -36,6 +37,6 @@ $letter-spacing: 4px;
   font-size: $fs--m;
   font-weight: $fw--600;
   letter-spacing: $letter-spacing--sm;
-  margin: 0 0  20px 0;
+  margin: 0 0 20px 0;
   //margin: 0 0  $spacers(4) 0;
 }

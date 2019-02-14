@@ -1,0 +1,17 @@
+featured_article_grid:
+  headline: "In hac habitasse platea dictumst. Nunc!"
+  button_text: "Aliquam eu velit"
+  cards:
+    -
+      title: "Duis laoreet nunc at luctus?"
+      summary: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+    -
+      title: "Duis laoreet nunc at luctus?"
+      summary: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+    -
+      title: "Duis laoreet nunc at luctus?"
+      summary: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+
+
+
+
