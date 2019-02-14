@@ -19,3 +19,16 @@ $c-button: #878787;
 
 $c-tangerine: #fd887a;
 $c-orange: #ed786a;
+
+//TODO: Rip out bootstrap
+// Colors
+$strong-colors: (
+  'white':  $c-white,
+  'background': $c-background,
+  'icon': $c-icon,
+  'gray': $c-gray,
+  'border': $c-border,
+  'button': $c-button,
+  'tangerine': $c-tangerine,
+  'orange': $c-orange,
+);

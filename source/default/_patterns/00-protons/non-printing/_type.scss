@@ -1,1 +1,41 @@
 // Custom non-printing type variables and mixins
+//Font Family
+$ff--arvo: 'Arvo', serif;
+$ff--sourcesans: 'Source Sans Pro', sans-serif;
+
+//Font Weights
+$fw--300: 300; // light
+$fw--400: 400; // normal/regular
+$fw--600: 600; // semi-bold/demi-bold
+$fw--700: 700; // bold
+
+//Font Sizes
+$fs--m: 16px;
+$fs--l: 26px;
+
+//Letter Spacing
+$letter-spacing--sm: 2px;
+$letter-spacing: 4px;
+
+
+//heading mixins
+
+@mixin h2() {
+  font-family: $ff--sourcesans;
+  color: $c-button;
+  text-transform: uppercase;
+  font-size: $fs--l;
+  letter-spacing: $letter-spacing;
+  font-weight: $fw--400;
+}
+
+@mixin h3() {
+  font-family: $ff--sourcesans;
+  color: $c-button;
+  text-transform: uppercase;
+  font-size: $fs--m;
+  font-weight: $fw--600;
+  letter-spacing: $letter-spacing--sm;
+  margin: 0 0  20px 0;
+  //margin: 0 0  $spacers(4) 0;
+}

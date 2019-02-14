@@ -72,16 +72,31 @@ PAGES
       
       How to remove bootstrap colors? 
       ```
+      
+      
+     Note:  Can override demo stuff in apps/pl/scss/_scss2json.scss
+     
 * Setup Fonts
+  //import in (protons/printing/_type.scss)
+  //add var  (protons/non-printing/_type.scss) 
+  //add to demo in apps/pl/scss/_scss2json.scss
+  
+  add font weights etc to _type.scss
+  
+  
+    
+  
 
 
 * Setup up images
   rip out what you dont need from imageStyles.yml,/ add change what you need 
+  source/default/_data/imageStyles.yml
+  
   
 
 * Build a component
 
-  ie. small icon button compontent
+  ie. small icon button component
   
   1.  npm run new
       - choose design system, (default was only choice for now) 

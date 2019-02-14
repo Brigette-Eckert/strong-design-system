@@ -10,13 +10,21 @@
 #}
 
 <div class="featured-article-card">
-  <div class="featured-article-card__image-wrapper">
-    {#@include image #}
-  </div>
+  <div class="featured-article-card__wrapper">
+    <div class="featured-article-card__image-wrapper">
+      <a class="featured-article-card__image-link" href="#">
+        {% include '@atoms/image/_image.twig' with {
+          imageStyleName: 'card',
+          img: card_image,
+        } %}
 
-  <div class="featured-article-card__text-wrapper">
-    <h3></h3>
-    <p></p>
+      </a>
+    </div>
 
+    <div class="featured-article-card__text-wrapper">
+      <h3>{{ featured_article_card.title }}</h3>
+      <p>{{ featured_article_card.summary }}</p>
+
+    </div>
   </div>
 </div>

@@ -3,9 +3,8 @@
 // Customized Sass Mapping
 // Pulled from Bootstrap's _variables.scss
 $font-families-demo: (
-  '$font-family-base': $font-family-base,
-  '$font-family-monospace': $font-family-monospace,
-  '$headings-font-family': $headings-font-family,
+  '$ff--arvo': $ff--arvo,
+  '$ff--sourcesans': $ff--sourcesans,
 );
 
 $font-sizes-demo: (
@@ -28,13 +27,16 @@ $spacing-demo: $spacers;
 // Return an array of the SVG filenames located within svgicon/svg/
 $svgicons: map-keys($sprites);
 
+
+//TODO: Clean up /remove undeed line for colors
 // Exports Data to source/_data/scssVariables.json
 // This json file populates demo twig patterns related to config items.
 // Include your Customized Sass Maps here to JSONIFY
 @include export-data(
   'scssVariables.json',
   (
-    scssColors: $theme-colors,
+    //scssColors: $theme-colors,
+    scssColors: $strong-colors,
     scssBreakpoints: $grid-breakpoints,
     scssSpacing: $spacing-demo,
     fontFamilies: $font-families-demo,
