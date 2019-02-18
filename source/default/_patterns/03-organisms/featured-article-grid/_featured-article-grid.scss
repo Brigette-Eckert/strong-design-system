@@ -7,3 +7,11 @@
 .featured-article-grid__headline {
   @include section_heading();
 }
+
+.featured-article-grid__btn {
+  @include paper-btn;
+}
+
+.featured-article-grid__btn:hover {
+  background-color: $c-tangerine;
+}

@@ -4,15 +4,23 @@
 // are provided to this file via:
 //   webpack.particle.js: sass-loader.data|includePaths
 
+//TODO: Add spacing vars
 .featured-article-card__title {
-  @include h3();
+  @include article_heading();
+  margin-top: 70px;
+}
+
+.featured-article-card__summary {
+  font-size: $fs--m;
+  font-weight: $fw--300;
+  margin-bottom: 50px;
 }
 
 .featured-article-card__image-link {
   display: block;
 }
 
-.featuered-article-card__img {
+.featured-article-card__img {
   @include picture-border();
 }
 

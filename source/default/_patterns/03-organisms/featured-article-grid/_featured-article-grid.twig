@@ -26,28 +26,9 @@
   </div>
 
 
-
-  {#  {% block grid %}
-    {% embed '@atoms/_grid.twig' with {
-      container: true,
-      layout: '3-up'
-    } %}
-      {% block content %}
-        {% for card in featured_article_grid.cards %}
-          <div class=" {{ col_classes }}">
-            {% include '@molecules/_featured-article-card.twig' with {
-              featured_article_card: card
-            } %}
-          </div>
-        {% endfor %}
-      {% endblock %}
-    {% endembed %}
-  {% endblock %}
-#}
-
   <div class="row text-center">
     <div class="col">
-      <button type="button" class="featured-article-grid__button btn btn-orange ">
+      <button type="button" class="featured-article-grid__btn btn btn-orange ">
         <i class="fas fa-space-shuttle"></i>
         <i class="fas fa-file" aria-hidden="true"></i>
         {{ featured_article_grid.button_text | upper }}
