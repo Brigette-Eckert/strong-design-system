@@ -9,10 +9,25 @@
  */
 #}
 
-<div class="featured-article-grid">
-  <h2 class="featured-article-grid__headline"> {{ featured_article_grid.headline }}</h2>
+<div class="featured-article-grid container">
+  <div class="row">
+    <div class="col">
+      <h2 class="featured-article-grid__headline text-center">{{ featured_article_grid.headline }}</h2>
+    </div>
+  </div>
+  <div class="row">
+    {% for card in featured_article_grid.cards %}
+      <div class="col-sm-4">
+        {% include '@molecules/_featured-article-card.twig' with {
+          featured_article_card: card
+        } %}
+      </div>
+    {% endfor %}
+  </div>
 
-  {% block grid %}
+
+
+  {#  {% block grid %}
     {% embed '@atoms/_grid.twig' with {
       container: true,
       layout: '3-up'
@@ -28,11 +43,17 @@
       {% endblock %}
     {% endembed %}
   {% endblock %}
+#}
+
+  <div class="row text-center">
+    <div class="col">
+      <button type="button" class="featured-article-grid__button btn btn-orange ">
+        <i class="fas fa-space-shuttle"></i>
+        <i class="fas fa-file" aria-hidden="true"></i>
+        {{ featured_article_grid.button_text | upper }}
+      </button>
+    </div>
+  </div>
 
 
-  <button type="button" class="btn btn-orange featured-article-grid__button">
-    <i class="fas fa-file" aria-hidden="true"></i>
-   {{ featured_article_grid.button_text | upper}}
-  </button>
-
-</div>
+</div> <!-- /.featured-article-grid -->

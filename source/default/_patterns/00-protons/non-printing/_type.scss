@@ -20,7 +20,7 @@ $letter-spacing: 4px;
 
 //heading mixins
 
-@mixin h2() {
+@mixin section_heading() {
   font-family: $ff--sourcesans;
   color: $c-button;
   text-transform: uppercase;
@@ -39,4 +39,10 @@ $letter-spacing: 4px;
   letter-spacing: $letter-spacing--sm;
   margin: 0 0 20px 0;
   //margin: 0 0  $spacers(4) 0;
+}
+
+// Border Mixins
+@mixin picture-border() {
+  border: 6px solid $c-border;
+  max-width: 100%;
 }

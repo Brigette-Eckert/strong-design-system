@@ -8,6 +8,7 @@
  *    - featured_article_card.invert [bool]: When set, colors will be inverted for light display on dark background.
  */
 #}
+{#TODO: Rename compontent/fix class typos BBE#}
 
 <div class="featured-article-card">
   <div class="featured-article-card__wrapper">
@@ -16,14 +17,15 @@
         {% include '@atoms/image/_image.twig' with {
           imageStyleName: 'card',
           img: card_image,
+          class: "featuered-article-card__img"
         } %}
 
       </a>
     </div>
 
-    <div class="featured-article-card__text-wrapper">
-      <h3>{{ featured_article_card.title }}</h3>
-      <p>{{ featured_article_card.summary }}</p>
+    <div class="featured-article-card__text-wrapper text-center">
+      <h3 class="featured-article-card__title">{{ featured_article_card.title }}</h3>
+      <p class="featured-article-card__summary">{{ featured_article_card.summary }}</p>
 
     </div>
   </div>

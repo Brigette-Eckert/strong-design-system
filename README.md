@@ -93,6 +93,8 @@ PAGES
   source/default/_data/imageStyles.yml
   
   
+  add classes to image- just include with class: "my-block__element-class"
+  
 
 * Build a component
 
@@ -114,7 +116,7 @@ PAGES
        
 
 
-//troubleshhotim 
+//troubleshhoting 
 
    dont see changes ...check console log often a twig error
 * Build a component that uses another component
@@ -122,3 +124,33 @@ PAGES
 
 # THINGS TO INCLUDE IF DOCUMENTATION IF NOT INCLUDED:
     * Demo vs Adding Pattern, ie adding color vars to color dem o
+    
+    
+    
+    
+# Compontents
+  
+      ##Need to make:
+           Header
+           Footer
+            Side Bar Article 
+            Banner Image
+            Full Size Article 
+      
+      ##Done: 
+          Featured Article 3 up  
+          icon button 
+      
+      
+# Why AD? 
+  //Living Demo 
+  //Easy to make changes
+  // Easy to make repsonive 
+  // Teams can work in Parallel vs waterfall method 
+      
+  
+      
+  
+      
+FAQ/COMMON PROBLEMS:
+  Font Awesome icon not loading

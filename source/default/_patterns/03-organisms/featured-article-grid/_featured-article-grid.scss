@@ -4,8 +4,6 @@
 // are provided to this file via:
 //   webpack.particle.js: sass-loader.data|includePaths
 
-.featured-article-grid {
-  h2 {
-    @include h2();
-  }
+.featured-article-grid__headline {
+  @include section_heading();
 }
