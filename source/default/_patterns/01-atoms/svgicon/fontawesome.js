@@ -11,10 +11,27 @@ import {
   faRocket,
   faSpaceShuttle,
   faUser,
+  faFile,
+  faHome,
+  faChartBar,
+  faCog,
+  faRetweet,
+  faSitemap,
 } from '@fortawesome/free-solid-svg-icons';
 
 // Add specific icons required
-library.add(faUserAstronaut, faRocket, faSpaceShuttle, faUser);
+library.add(
+  faUserAstronaut,
+  faRocket,
+  faSpaceShuttle,
+  faUser,
+  faFile,
+  faHome,
+  faChartBar,
+  faCog,
+  faRetweet,
+  faSitemap
+);
 
 // Replace any existing <i> tags with <svg> and set up a MutationObserver to
 // continue doing this as the DOM changes.
