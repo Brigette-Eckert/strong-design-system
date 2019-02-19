@@ -1,0 +1,20 @@
+header:
+  title: 'Aenean Quisque '
+  eyebrow: 'Sem auctor gravida feugiat. Nunc dignissim, neque congue iaculis'
+  navbar:
+    -
+      icon: "home"
+      text: "Lorem"
+    -
+      icon:  "bar-chart-o"
+      text: "ipsum"
+    -
+      icon: "cog"
+      text: "dolor"
+    -
+      icon: "retweet"
+      text: "sit"
+    -
+      icon: "sitemap"
+      text: "amet"
+

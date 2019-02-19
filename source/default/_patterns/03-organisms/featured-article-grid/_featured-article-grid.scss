@@ -9,7 +9,8 @@
 }
 
 .featured-article-grid__btn {
-  @include paper-btn;
+  @include paper-btn();
+  @include button-box-shadow();
 }
 
 .featured-article-grid__btn:hover {

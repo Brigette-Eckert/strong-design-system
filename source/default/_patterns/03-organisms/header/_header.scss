@@ -1,0 +1,41 @@
+// Custom styles for header
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.header__btn {
+  @include button-box-shadow();
+  border-radius: 100%;
+  margin-right: ($spacing--sm*1.5);
+}
+
+.header__btn:hover {
+  background-color: $c-orange;
+  border-color: $c-orange;
+}
+
+.header__btn-wrapper {
+  margin-left: ($spacing--sm);
+  margin-right: $spacing--xl;
+}
+
+.header__btn-text {
+  @include heading();
+  letter-spacing: $letter-spacing--sm;
+  line-height: $spacing--lg;
+}
+
+.header__svg {
+  height: $spacing--md;
+  width: $spacing--md;
+}
+
+.header__navbar {
+  margin: $spacing--xl 0;
+}
+
+.header__title {
+  @include page-title();
+}
+

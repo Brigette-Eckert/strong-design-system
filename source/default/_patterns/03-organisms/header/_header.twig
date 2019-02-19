@@ -1,0 +1,41 @@
+{#
+/**
+ * @file
+ * header
+ *
+ * Available variables for header:
+ *    - header.variable_name [variable_type]: Description of the variable. Example below.
+ *    - header.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+<div class="header container">
+  <div class="row">
+    <div class="header__navbar col text-center">
+      {% for nav in header.navbar %}
+        <span class="header__btn-wrapper">
+          <button type="button" class="header__btn btn btn-button">
+          <i class="header__svg fas fa-{{ nav.icon }}" aria-hidden="true"></i>
+        </button>
+       <span class="header__btn-text">
+         {{ nav.text }}
+       </span>
+        </span>
+      {% endfor %}
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h1 class="header__title">
+        {{ header.title }}
+      </h1>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="header__eyebrow col">
+      {{ header.eyebrow }}
+    </div>
+  </div>
+</div>

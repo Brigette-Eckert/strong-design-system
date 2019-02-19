@@ -84,6 +84,7 @@ plugins:
           - ../../../source/default/_patterns/03-organisms/card-grid
           - ../../../source/default/_patterns/03-organisms/featured-article-grid
           - ../../../source/default/_patterns/03-organisms/footer
+          - ../../../source/default/_patterns/03-organisms/header
           - ../../../source/default/_patterns/03-organisms/navbar
       templates:
         paths:
