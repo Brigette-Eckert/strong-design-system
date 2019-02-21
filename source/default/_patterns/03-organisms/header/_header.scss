@@ -7,7 +7,7 @@
 .header__btn {
   @include button-box-shadow();
   border-radius: 100%;
-  margin-right: ($spacing--sm*1.5);
+  margin-right: ($spacing--sm * 1.5);
 }
 
 .header__btn:hover {
@@ -29,7 +29,8 @@
   margin: $spacing--xl 0;
 }
 
-.header__btn-text, .header__eyebrow {
+.header__btn-text,
+.header__eyebrow {
   @include heading();
   letter-spacing: $letter-spacing--sm;
   line-height: $spacing--lg;

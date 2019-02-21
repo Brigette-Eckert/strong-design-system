@@ -1,19 +1,10 @@
-/**
- * This is a pretty standard app > collection > items pattern.
- *   app
- *     banner
- *     cards
- *       card
- *       card
- *       ...
- * App fetches data and provides props to Cards which loops out each individual
- * Card. App uses the custom event @set-name to allow communication between
- * child components (Cards) and parent (App).
- *
- * In reality, we'd probably move the data fetching into Cards as well as adding
- * the isClicked property to each card at the time of fetching. We'd also
- * probably reach for VueX when we start communicating between components more.
-**/
+/** * This is a pretty standard app > collection > items pattern. * app * banner
+* cards * card * card * ... * App fetches data and provides props to Cards which
+loops out each individual * Card. App uses the custom event @set-name to allow
+communication between * child components (Cards) and parent (App). * * In
+reality, we'd probably move the data fetching into Cards as well as adding * the
+isClicked property to each card at the time of fetching. We'd also * probably
+reach for VueX when we start communicating between components more. **/
 
 <template>
   <div class="banner-cards">
@@ -21,10 +12,7 @@
     <p v-if="cardName">
       Clicked name: <strong>{{ cardName }}</strong>
     </p>
-    <cards
-      :cards="cardsArray"
-      @set-name="cardName = $event"
-    />
+    <cards :cards="cardsArray" @set-name="cardName = $event" />
   </div>
 </template>
 

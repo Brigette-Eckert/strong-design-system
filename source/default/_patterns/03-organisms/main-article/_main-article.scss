@@ -1,0 +1,23 @@
+// Custom styles for main-article
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.main-article__header {
+  @include section_heading();
+  line-height: 57px;
+}
+
+.main-article__btn {
+  @include paper-btn();
+  @include button-box-shadow();
+}
+
+.main-article__header:hover {
+  color: $c-secondary;
+}
+
+.main-article-card__img {
+  @include picture-border();
+}

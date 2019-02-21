@@ -1,0 +1,61 @@
+{#
+/**
+ * @file
+ * main-article
+ *
+ * Available variables for main-article:
+ *    - main_article.variable_name [variable_type]: Description of the variable. Example below.
+ *    - main_article.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+<div class="main-article container">
+
+  <div class="row">
+    <div class="col">
+      <h2 class="main-article__header">
+        <div class="main-article__header--headline">
+          {{ main_article.headline }}
+        </div>
+        <div class="main-article__header--subline">
+            {{ main_article.subline }}
+        </div>
+      </h2>
+    </div>
+  </div>
+
+  <div class="main-article__image-wrapper">
+    <a class="main-article__image-link" href="#">
+      {% include '@atoms/image/_image.twig' with {
+        imageStyleName: 'medium',
+        img: main_article_image,
+        class: "main-article-card__img"
+      } %}
+    </a>
+  </div>
+
+
+
+
+  {#TODO: refactor into compontent with loop#}
+
+  <div class="main-article__text-wrapper text-center">
+    <h3 class="main-article__title">{{ main_article.title }}</h3>
+    <p class="main-article__summary">{{ main_article.summary }}</p>
+  </div>
+
+
+
+  {#TODO: refactor into own button compontent #}
+  <div class="row text-center">
+    <div class="col">
+      <button type="button" class="main-article__btn btn btn-primary">
+        <i class="fas fa-file" aria-hidden="true"></i>
+        {{ main_article.button_text | upper }}
+      </button>
+    </div>
+  </div>
+
+
+</div> <!-- /.main-article -->
+

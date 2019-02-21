@@ -131,15 +131,15 @@ PAGES
 # Compontents
   
       ##Need to make:
-           Header
-           Footer
+            Footer (Check pre made footer, might be easier to modify) 
             Side Bar Article 
             Banner Image
             Full Size Article 
       
-      ##Done: 
-          Featured Article 3 up  
-        ==
+      ##Done/In Progress: 
+          Featured Article 3 up  (need mobile?)
+          Header  (need mobile) 
+       
       
       
 # Why AD? 

@@ -6,8 +6,9 @@ imageStyles:
     width: 348
     height: 233
   medium:
-    width: 753
-    height: 293
+    width: 905
+    height: 350
+
 #    TODO: remove unused image sizes
   small:
     width: 400

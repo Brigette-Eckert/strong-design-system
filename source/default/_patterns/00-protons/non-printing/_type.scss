@@ -40,7 +40,7 @@ $spacing-xxxl: 60px;
   font-size: $fs--l;
   letter-spacing: $letter-spacing;
   font-weight: $fw--400;
-  margin: ($spacing-xxl*2) 0 $spacing-xxl 0;
+  margin: ($spacing-xxl * 2) 0 $spacing-xxl 0;
 }
 
 @mixin article_heading() {
@@ -59,7 +59,7 @@ $spacing-xxxl: 60px;
   font-weight: $fw--700;
   line-height: $spacing--lg;
   letter-spacing: $letter-spacing--xl;
-  text-shadow: rgba(0, 0, 0, .1) ($spacing--xs/2) $spacing--xs;
+  text-shadow: rgba(0, 0, 0, 0.1) ($spacing--xs/2) $spacing--xs;
 }
 
 // Border Mixins
