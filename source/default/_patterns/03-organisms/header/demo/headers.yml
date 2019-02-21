@@ -6,7 +6,7 @@ header:
       icon: "home"
       text: "Lorem"
     -
-      icon:  "bar-chart-o"
+      icon:  "chart-bar"
       text: "ipsum"
     -
       icon: "cog"

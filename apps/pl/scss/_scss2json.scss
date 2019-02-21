@@ -35,8 +35,8 @@ $svgicons: map-keys($sprites);
 @include export-data(
   'scssVariables.json',
   (
-    //scssColors: $theme-colors,
-    scssColors: $strong-colors,
+    scssColors: $theme-colors,
+    //scssColors: $strong-colors,
     scssBreakpoints: $grid-breakpoints,
     scssSpacing: $spacing-demo,
     fontFamilies: $font-families-demo,

@@ -3,14 +3,13 @@
 
 // Colors
 $theme-colors: (
-  'white':  $c-white,
-  'background': $c-background,
-  'icon': $c-icon,
+  'white': $c-white,
+  'lightest': $c-lightest,
+  'light': $c-light,
   'gray': $c-gray,
-  'border': $c-border,
-  'button': $c-button,
-  'tangerine': $c-tangerine,
-  'orange': $c-orange,
+  'dark': $c-dark,
+  'primary': $c-primary,
+  'secondary': $c-secondary
 );
 
 // Fonts

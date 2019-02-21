@@ -11,19 +11,13 @@
 }
 
 .header__btn:hover {
-  background-color: $c-orange;
-  border-color: $c-orange;
+  background-color: $c-primary;
+  border-color: $c-primary;
 }
 
 .header__btn-wrapper {
   margin-left: ($spacing--sm);
   margin-right: $spacing--xl;
-}
-
-.header__btn-text {
-  @include heading();
-  letter-spacing: $letter-spacing--sm;
-  line-height: $spacing--lg;
 }
 
 .header__svg {
@@ -35,7 +29,20 @@
   margin: $spacing--xl 0;
 }
 
+.header__btn-text, .header__eyebrow {
+  @include heading();
+  letter-spacing: $letter-spacing--sm;
+  line-height: $spacing--lg;
+}
+
+.header__eyebrow {
+  margin-top: $spacing--xl;
+}
+
 .header__title {
   @include page-title();
 }
 
+.header__text-wrapper {
+  margin: 140px auto;
+}

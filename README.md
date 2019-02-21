@@ -153,4 +153,17 @@ PAGES
   
       
 FAQ/COMMON PROBLEMS:
-  Font Awesome icon not loading
+  Font Awesome icon not loading 
+     Import Font Awesome icons - in svgicons index.js
+     source/default/_patterns/01-atoms/svgicon/fontawesome.js
+
+
+TODO: 
+  Rename Colors - to pratical names if possible
+  Add in font awesome icons that are missing    
+
+
+
+//Ask about seperation of vars, colors etc- like bootstrap override file
+
+

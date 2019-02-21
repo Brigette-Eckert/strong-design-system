@@ -2,33 +2,11 @@
 
 // Greyscale
 $c-white: #fff;
-$c-background: #f0f0f0;
-$c-icon: #e5e5e5;
+$c-lightest: #f0f0f0;
+$c-light: #e5e5e5;
 $c-gray: #d0d0d0;
-$c-border: #e5e5e5;
-//$c-gray-F: #ccc;
-//$c-gray-G: #aaa;
-//$c-gray-H: #979797;
-$c-button: #878787;
-//$c-gray--K: #777;
-//$c-gray--smoke: #666;
-//$c-storm: #555;
-//$c-steel: #444;
-//$c-asphalt: #3c3c3c;
+$c-dark: #878787;
 
-
-$c-tangerine: #fd887a;
-$c-orange: #ed786a;
-
-//TODO: Rip out bootstrap colors?
-// Colors
-$strong-colors: (
-  'white':  $c-white,
-  'background': $c-background,
-  'icon': $c-icon,
-  'gray': $c-gray,
-  'border': $c-border,
-  'button': $c-button,
-  'tangerine': $c-tangerine,
-  'orange': $c-orange,
-);
+//Colors
+$c-primary: #ed786a;
+$c-secondary: #fd887a;

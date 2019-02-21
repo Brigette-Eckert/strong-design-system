@@ -17,7 +17,7 @@ $fs--l: 33px;
 //Letter Spacing
 $letter-spacing--sm: 2px;
 $letter-spacing: 4px;
-
+$letter-spacing--xl: 13px;
 
 //Spacing
 $spacing--xxs: 2px;
@@ -29,15 +29,11 @@ $spacing--xl: 40px;
 $spacing-xxl: 50px;
 $spacing-xxxl: 60px;
 
-
-
-
 @mixin heading() {
   font-family: $ff--sourcesans;
-  color: $c-button;
+  color: $c-dark;
   text-transform: uppercase;
 }
-
 
 @mixin section_heading() {
   @include heading();
@@ -56,27 +52,25 @@ $spacing-xxxl: 60px;
 }
 
 @mixin page-title() {
-  color: $c-orange;
+  color: $c-primary;
   font-family: $ff--arvo;
   text-transform: uppercase;
   font-size: $spacing-xxxl;
   font-weight: $fw--700;
-  line-height: 33px;
-  letter-spacing: 13px;
+  line-height: $spacing--lg;
+  letter-spacing: $letter-spacing--xl;
+  text-shadow: rgba(0, 0, 0, .1) $spacing--xxs $spacing--xs;
 }
 
 // Border Mixins
 @mixin picture-border() {
-  border: 6px solid $c-border;
+  border: 6px solid $c-light;
   max-width: 100%;
 }
 
-
-@mixin button-box-shadow(){
+@mixin button-box-shadow() {
   box-shadow: rgba(0, 0, 0, 0.125) $spacing--xxs $spacing--xs 0 0;
 }
-
-
 
 //Button styles
 @mixin paper-btn() {

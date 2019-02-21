@@ -13,7 +13,7 @@
 
 <div class="featured-article-card">
   <div class="featured-article-card__wrapper">
-    <div class="featured-article-card__image-wrapper">
+    <div class="featured-article-card__image-wrapper text-center">
       <a class="featured-article-card__image-link" href="#">
         {% include '@atoms/image/_image.twig' with {
           imageStyleName: 'card',
@@ -27,7 +27,6 @@
     <div class="featured-article-card__text-wrapper text-center">
       <h3 class="featured-article-card__title">{{ featured_article_card.title }}</h3>
       <p class="featured-article-card__summary">{{ featured_article_card.summary }}</p>
-
     </div>
   </div>
 </div>
