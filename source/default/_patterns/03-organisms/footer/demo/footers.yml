@@ -1,2 +1,52 @@
 footer:
-  slogan: 'Powered by <a href="http://patternlab.io/" target="_blank">Pattern Lab</a>'
+  headline: "Nulla facilisi. Cras."
+  emphasis: "Etiam ut tortor"
+  form:
+    name: "Lorem"
+    email: "Ipsum"
+    message: "Message"
+  button:
+    text: "Aenean sit."
+    color: "primary"
+    type: "rectangle"
+    icon: "envelope"
+  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet accumsan diam. Nam ex orci, pulvinar et ornare rutrum, luctus sed nulla. Vivamus vitae odio ornare, tristique turpis eu, suscipit orci. Curabitur in nunc sollicitudin, dictum massa nec, blandit arcu. Etiam vehicula, dui ac consectetur tincidunt, augue turpis varius mi, id ullamcorper ex urna in purus. Suspendisse mollis justo sit amet mauris imperdiet, vitae tempus urna condimentum. Maecenas dictum sapien at pharetra pulvinar. Mauris eu dolor felis."
+  links:
+    -
+      icon: "home"
+      icon_type: "s"
+      text: "Lorem ipsum dolor sit amet."
+    -
+      icon:  "phone"
+      icon_type: "s"
+      text: "Nam"
+    -
+      icon: "envelope"
+      icon_type: "s"
+      text: "non quam"
+    -
+      icon: "twitter"
+      icon_type: "b"
+      text: "aliquet"
+    -
+      icon: "instagram"
+      icon_type: "b"
+      text: " laoreet"
+    -
+      icon: "dribbble"
+      icon_type: "b"
+      text: "Sed pellentesque"
+    -
+      icon: "facebook"
+      icon_type: "b"
+      text: "mauris est, in."
+  credits:
+    -
+      credit: "Ut semper est."
+    -
+      credit: "Vestibulum massa diam."
+    -
+      credit: "Aliquam tristique ante."
+
+
+

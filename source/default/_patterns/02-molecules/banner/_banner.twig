@@ -1,0 +1,33 @@
+{#
+/**
+ * @file
+ * banner
+ *
+ * Available variables for banner:
+ *    - banner.variable_name [variable_type]: Description of the variable. Example below.
+ *    - banner.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+<div class="banner banner-image--bg container" style="height: 450px;">
+
+  <div class="row">
+    <div class="col">
+      <h2 class="banner__header text-center">
+        <div class="banner__header--headline">
+          {{ banner.headline }} <strong> {{ banner.emphasis }}</strong>
+        </div>
+        <div class="banner__header--subline">
+          {{ banner.subline }}
+        </div>
+      </h2>
+    </div>
+
+    <i class="icon--bracket"></i>
+
+
+  </div>
+
+
+</div>
+

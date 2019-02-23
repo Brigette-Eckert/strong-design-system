@@ -34,14 +34,12 @@
     </a>
   </div>
 
-
-  {#TODO: refactor into compontent with loop#}
-
-  <div class="main-article__text-wrapper">
-    <h3 class="main-article__title">{{ main_article.title }}</h3>
-    <p class="main-article__summary">{{ main_article.summary }}</p>
-  </div>
-
+  {% for section in main_article.sections  %}
+    <div class="main-article__text-wrapper">
+      <h3 class="main-article__title">{{ section.title }}</h3>
+      <p class="main-article__summary">{{ section.summary }}</p>
+    </div>
+  {% endfor %}
 
 
   {% include '@atoms/_icon-button.twig' with {

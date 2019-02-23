@@ -17,7 +17,16 @@ import {
   faCog,
   faRetweet,
   faSitemap,
+  faEnvelope,
+  faPhone,
 } from '@fortawesome/free-solid-svg-icons';
+
+import {
+  faTwitter,
+  faInstagram,
+  faDribbble,
+  faFacebook,
+} from '@fortawesome/free-brands-svg-icons';
 
 // Add specific icons required
 library.add(
@@ -30,7 +39,13 @@ library.add(
   faChartBar,
   faCog,
   faRetweet,
-  faSitemap
+  faSitemap,
+  faEnvelope,
+  faPhone,
+  faTwitter,
+  faInstagram,
+  faDribbble,
+  faFacebook
 );
 
 // Replace any existing <i> tags with <svg> and set up a MutationObserver to

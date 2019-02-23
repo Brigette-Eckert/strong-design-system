@@ -1,9 +1,13 @@
 main_article:
   headline: "Fusce elementum urna at quam congue, sed dictum."
   subline: "Nam vehicula odio at."
-  title: "Curabitur eu tortor eratcras?"
-  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin, sem at consectetur tristique, turpis lacus fringilla metus, nec cursus tortor elit nec justo. Sed rutrum, velit vel venenatis ultrices, lacus enim dictum dui, id fermentum nunc nulla sed eros. Cras vel metus at eros tincidunt semper. Donec sit amet lacus faucibus, vulputate purus vel, suscipit nisl. Aenean pellentesque sapien dapibus tortor gravida elementum. In hac habitasse platea dictumst. Praesent posuere volutpat ante eu porttitor. Mauris auctor metus vel condimentum ultrices. Mauris lorem sapien, laoreet eget dui in, aliquam posuere magna. Vestibulum iaculis dolor sed mattis interdum. Maecenas pretium tristique nibh eu egestas. Nulla facilisi. Sed egestas justo sit amet nisi laoreet, nec commodo arcu scelerisque."
-  button_text: "Aenean sit."
+  sections:
+    -
+      title: "Curabitur eu tortor eratcras?"
+      summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dapibus ac erat sit amet molestie. Curabitur vitae nunc a quam iaculis bibendum vitae a diam. Proin volutpat erat justo, et dignissim quam condimentum sit amet. Proin ut metus sed urna interdum elementum. Sed ut dictum arcu, eget convallis nisi. Nunc ullamcorper nisl non magna aliquet, vel ultricies eros dapibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Donec sit amet lectus lorem. Phasellus nec lobortis tortor, vel sagittis elit. Mauris egestas luctus auctor. Fusce nec neque eu felis consequat rhoncus."
+    -
+      title: "Morbi congue ut ex et vehicula"
+      summary: "Prttitor pretium ut ut ante. Fusce vitae lobortis nunc. Nam sed sem quis mauris condimentum elementum vitae eget ex. Fusce tincidunt dui at nibh pretium rhoncus. Nam id hendrerit purus. Donec faucibus, nulla gravida dignissim vestibulum, orci elit tristique urna, ac aliquam libero leo ac nisi. Donec posuere tortor sed tincidunt elementum. Aenean elementum blandit mi sit amet venenatis. Maecenas semper laoreet massa, at ornare enim hendrerit at. Phasellus molestie dolor magna, at lacinia sem volutpat non. Mauris condimentum odio vitae sagittis laoreet. Integer eleifend enim non sagittis laoreet. Quisque justo mi, semper ac rhoncus at, molestie eu lacus."
   button:
     text: "Aenean sit."
     color: "primary"
