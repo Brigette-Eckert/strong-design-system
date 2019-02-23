@@ -1,0 +1,54 @@
+{#
+/**
+ * @file
+ * intro-page
+ *
+ * Available variables for intro-page:
+ *    - intro_page.variable_name [variable_type]: Description of the variable. Example below.
+ *    - intro_page.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+<div class="intro-page">
+  {% include '@organisms/_header.twig'
+    with
+    { header: intro_page.header }
+  %}
+
+
+  <hr>
+  <hr>
+
+  {% include '@organisms/_featured-article-grid.twig' with
+    { featured_article_grid: intro_page.featured_article_grid }
+  %}
+
+  {% include '@molecules/_banner.twig' with
+    { banner: intro_page.banner }
+  %}
+
+
+  Side Bar
+
+
+  {% include '@organisms/_main-article.twig' with
+    { main_article: intro_page.main_article1 }
+  %}
+
+  <hr>
+  <hr>
+
+  {% include '@organisms/_main-article.twig' with
+    { main_article: intro_page.main_article2 }
+  %}
+
+
+
+
+  {% include '@organisms/_footer.twig' with
+    { footer: intro_page.footer }
+  %}
+
+
+
+</div>

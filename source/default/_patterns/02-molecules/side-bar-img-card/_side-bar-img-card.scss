@@ -1,0 +1,17 @@
+// Custom styles for side-bar-img-card
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.side-bar-img-card__img {
+  @include picture-border();
+}
+
+.side-bar-img-card__title {
+  @include article_heading();
+}
+
+.side-bar-img-card__summary {
+  @include article_summary();
+}

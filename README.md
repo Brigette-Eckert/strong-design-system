@@ -130,15 +130,18 @@ PAGES
     
 # Compontents
   
-      ##Need to make:
-            Footer (Check pre made footer, might be easier to modify) 
-            Side Bar Article 
-            Banner Image
-            Full Size Article 
-      
+    Need to make:
+      Side Bar compotent ? 
+  
       ##Done/In Progress: 
+          Banner Image
+          Full Size Article 
           Featured Article 3 up  (need mobile?)
           Header  (need mobile) 
+         Footer (Check pre made footer, might be easier to modify) 
+         
+            Side Bar Article 
+          
        
       
       

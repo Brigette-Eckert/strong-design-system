@@ -9,6 +9,21 @@
  */
 #}
 
-<div class="side-bar-card">
-  <h1>side-bar-card component</h1>
+<div class="side-bar-card container">
+  <div class="row">
+    <div class="col">
+      <button type="button" class="side-bar-card__btn btn btn-dark">
+        {{ side_bar_card.date }}
+      </button>
+
+
+      <div class="side-bar-card__text-wrapper">
+        <h3 class="side-bar-card__title">{{ side_bar_card.title }}</h3>
+        <p class="side-bar-card_summary">{{ side_bar_card.summary }}</p>
+      </div>
+
+    </div>
+
+  </div>
+
 </div>
