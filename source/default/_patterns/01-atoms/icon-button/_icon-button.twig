@@ -10,9 +10,12 @@
 #}
 
 <div class="icon-button">
-
-  {#font awesome icon #}
-  {#<i class="fa fa-bar-chart" aria-hidden="true"></i>#}
-  {#<div><i class="icon-camera-retro"></i></div>#}
-  {#<i class="fas fa-igloo"></i>#}
+  <div class="row text-center">
+    <div class="col">
+      <button type="button" class="icon-button__btn--{{ icon_button.type }} btn btn-{{ icon_button.color }}">
+        <i class="fas fa-{{ icon_button.icon }}" aria-hidden="true"></i>
+        {{ icon_button.text | upper }}
+      </button>
+    </div>
+  </div>
 </div>

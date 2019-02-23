@@ -1,1 +1,10 @@
-icon_button: ''
+icon_button_rectangle:
+  text: "Aenean sit."
+  icon: "file"
+  color: "primary"
+  type: "rectangle"
+
+icon_button_circle:
+  icon: "file"
+  color: "dark"
+  type: "circle"

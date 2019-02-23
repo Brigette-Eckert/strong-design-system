@@ -4,3 +4,10 @@ main_article:
   title: "Curabitur eu tortor eratcras?"
   summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin, sem at consectetur tristique, turpis lacus fringilla metus, nec cursus tortor elit nec justo. Sed rutrum, velit vel venenatis ultrices, lacus enim dictum dui, id fermentum nunc nulla sed eros. Cras vel metus at eros tincidunt semper. Donec sit amet lacus faucibus, vulputate purus vel, suscipit nisl. Aenean pellentesque sapien dapibus tortor gravida elementum. In hac habitasse platea dictumst. Praesent posuere volutpat ante eu porttitor. Mauris auctor metus vel condimentum ultrices. Mauris lorem sapien, laoreet eget dui in, aliquam posuere magna. Vestibulum iaculis dolor sed mattis interdum. Maecenas pretium tristique nibh eu egestas. Nulla facilisi. Sed egestas justo sit amet nisi laoreet, nec commodo arcu scelerisque."
   button_text: "Aenean sit."
+  button:
+    text: "Aenean sit."
+    color: "primary"
+    type: "rectangle"
+    icon: "file"
+
+

@@ -4,5 +4,10 @@
 // are provided to this file via:
 //   webpack.particle.js: sass-loader.data|includePaths
 
-.icon-button {
+.icon-button__btn--rectangle {
+  @include rectangle-btn();
+}
+
+.icon-button__btn--circle {
+  @include round-btn();
 }

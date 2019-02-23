@@ -11,9 +11,7 @@
 }
 
 .featured-article-card__summary {
-  font-size: $fs--m;
-  font-weight: $fw--300;
-  margin-bottom: 50px;
+  @include article_summary();
 }
 
 .featured-article-card__image-link {

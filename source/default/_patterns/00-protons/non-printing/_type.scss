@@ -51,6 +51,12 @@ $spacing-xxxl: 60px;
   margin: $spacing-xxl 0 $spacing--md 0;
 }
 
+@mixin article_summary() {
+  font-size: $fs--m;
+  font-weight: $fw--300;
+  margin-bottom: 50px;
+}
+
 @mixin page-title() {
   color: $c-primary;
   font-family: $ff--arvo;
@@ -68,12 +74,13 @@ $spacing-xxxl: 60px;
   max-width: 100%;
 }
 
-@mixin button-box-shadow() {
+@mixin btn-shared() {
   box-shadow: rgba(0, 0, 0, 0.125) ($spacing--xs/2) $spacing--xs 0 0;
 }
 
 //Button styles
-@mixin paper-btn() {
+@mixin rectangle-btn() {
+  @include btn-shared();
   margin: $spacing--md 0 $spacing--xl 0;
   color: $c-white;
   border-radius: $spacing--xs;
@@ -83,4 +90,10 @@ $spacing-xxxl: 60px;
   font-weight: $fw--600;
   line-height: $spacing--lg;
   padding: $spacing--sm $spacing--xl;
+}
+
+@mixin round-btn() {
+  @include btn-shared();
+  border-radius: 100%;
+  margin-right: ($spacing--sm * 1.5);
 }

@@ -10,8 +10,7 @@
 }
 
 .main-article__btn {
-  @include paper-btn();
-  @include button-box-shadow();
+  @include rectangle-btn();
 }
 
 .main-article__header:hover {
@@ -20,4 +19,12 @@
 
 .main-article-card__img {
   @include picture-border();
+}
+
+.main-article__title {
+  @include article_heading();
+}
+
+.main-article__summary {
+  @include article_summary();
 }

@@ -1,1 +1,7 @@
-{% include '@atoms/_icon-button.twig' %}
+{% include '@atoms/_icon-button.twig' with
+  { icon_button: icon_button_rectangle }
+%}
+
+{% include '@atoms/_icon-button.twig' with
+  { icon_button: icon_button_circle }
+%}

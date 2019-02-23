@@ -5,9 +5,7 @@
 //   webpack.particle.js: sass-loader.data|includePaths
 
 .header__btn {
-  @include button-box-shadow();
-  border-radius: 100%;
-  margin-right: ($spacing--sm * 1.5);
+  @include round-btn();
 }
 
 .header__btn:hover {
