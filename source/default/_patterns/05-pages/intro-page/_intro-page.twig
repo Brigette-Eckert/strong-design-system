@@ -8,47 +8,34 @@
  *    - intro_page.invert [bool]: When set, colors will be inverted for light display on dark background.
  */
 #}
-
+ {% extends '@templates/_basic-page.twig' %}
 <div class="intro-page">
-  {% include '@organisms/_header.twig'
-    with
-    { header: intro_page.header }
-  %}
+  {% block content %}
+
+    {% include '@organisms/_featured-article-grid.twig' with
+      { featured_article_grid: intro_page.featured_article_grid } %}
+
+    {% include '@molecules/_banner.twig' with
+      { banner: intro_page.banner } %}
 
 
-  <hr>
-  <hr>
-
-  {% include '@organisms/_featured-article-grid.twig' with
-    { featured_article_grid: intro_page.featured_article_grid }
-  %}
-
-  {% include '@molecules/_banner.twig' with
-    { banner: intro_page.banner }
-  %}
+    {#Side Bar#}
 
 
-  Side Bar
+    {% include '@organisms/_main-article.twig' with
+      { main_article: intro_page.main_article1 } %}
 
+    <hr>
+    <hr>
 
-  {% include '@organisms/_main-article.twig' with
-    { main_article: intro_page.main_article1 }
-  %}
+    {% include '@organisms/_main-article.twig' with
+      { main_article: intro_page.main_article2 } %}
 
-  <hr>
-  <hr>
-
-  {% include '@organisms/_main-article.twig' with
-    { main_article: intro_page.main_article2 }
-  %}
-
-
-
-
-  {% include '@organisms/_footer.twig' with
-    { footer: intro_page.footer }
-  %}
-
-
-
+  {% endblock content %}
 </div>
+
+
+{#TODO: #}
+
+{#Header #}
+{#Footer - In template rather than every page - move from page and into template  #}

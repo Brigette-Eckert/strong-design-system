@@ -9,25 +9,20 @@
  */
 #}
 
-<div class="banner banner-image--bg container" style="height: 450px;">
 
-  <div class="row">
-    <div class="col">
-      <h2 class="banner__header text-center">
-        <div class="banner__header--headline">
-          {{ banner.headline }} <strong> {{ banner.emphasis }}</strong>
-        </div>
-        <div class="banner__header--subline">
-          {{ banner.subline }}
-        </div>
-      </h2>
-    </div>
+<div class="banner banner-image--bg1 text-center d-flex align-items-center justify-content-around">
 
-    <i class="icon--bracket"></i>
-
-
+  <i class="banner-image__icon-right icon--bracket"></i>
+  <div class="banner__header text-center d-inline-flex">
+    <h2 class="banner__header--headline">
+      {{ banner.headline }} <strong> {{ banner.emphasis }}</strong>
+    </h2>
+    <br/>
+    <h2 class="banner__header--subline">
+      {{ banner.subline }}
+    </h2>
   </div>
-
+  <i class="banner-image__icon-left icon--bracket"></i>
 
 </div>
 

@@ -11,8 +11,23 @@
 
 <div class="basic-page">
   <div class="basic-page__inner">
-    {% block content %}
+    {% block header %}
+      {% include '@organisms/_header.twig'
+        with
+        { header: intro_page.header } %}
 
-    {% endblock %}
+      <hr>
+      <hr>
+    {% endblock header %}
+
+    {% block content %}
+    {% endblock content %}
+    {#best pratice to open and close blocks with name #}
+
+    {% block footer %}
+
+      {% include '@organisms/_footer.twig' with
+        { footer: intro_page.footer } %}
+    {% endblock footer %}
   </div>
 </div>

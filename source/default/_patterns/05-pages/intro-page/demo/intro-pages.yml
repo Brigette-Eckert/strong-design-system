@@ -1,122 +1,122 @@
 intro_page:
   header:
-    title: 'Strongly Typed '
-    eyebrow: 'A RESPONSIVE HTML5 SITE TEMPLATE. MANUFACTURED BY HTML5 UP.'
+    title: Strongly Typed
+    eyebrow: A RESPONSIVE HTML5 SITE TEMPLATE. MANUFACTURED BY HTML5 UP.
     navbar:
       -
-        icon: "home"
-        text: "Introduction"
+        icon: home
+        text: Introduction
       -
-        icon:  "chart-bar"
-        text: "Dropdown"
+        icon:  chart-bar
+        text: Dropdown
       -
-        icon: "cog"
-        text: "Left Sidebar"
+        icon: cog
+        text: Left Sidebar
       -
-        icon: "retweet"
-        text: "Right Sidebar"
+        icon: retweet
+        text: Right Sidebar
       -
-        icon: "sitemap"
-        text: "No Sidebar"
+        icon: sitemap
+        text: No Sidebar
 
   featured_article_grid:
-    headline: "Gentlemen, Behold! This is Strongly Typed!"
-    button_text: "Tell me more"
+    headline: Gentlemen, Behold! This is Strongly Typed!
+    button_text: Tell me more
     cards:
       -
-        title: "Okay, so what is this?"
-        summary: "This is Strongly Typed, a free, fully responsive site template by HTML5 UP. Free for personal and commercial use under the CCA 3.0 license."
+        title: Okay, so what is this?
+        summary: This is Strongly Typed, a free, fully responsive site template by HTML5 UP. Free for personal and commercial use under the CCA 3.0 license.
       -
-        title: "NICE! WHAT IS HTML5 UP?"
-        summary: "HTML5 UP is a side project of AJ’s (= me). I started it as a way to both test my responsive tools and sharpen up my coding and design skills a bit."
+        title: NICE! WHAT IS HTML5 UP?
+        summary: HTML5 UP is a side project of AJ’s (= me). I started it as a way to both test my responsive tools and sharpen up my coding and design skills a bit.
       -
-        title: "WHAT'S THIS BUILT WITH?"
-        summary: "Responsive Tools is a simple set of tools for building responsive sites and apps. All of my templates at HTML5 UP are built using these tools."
+        title: WHATS THIS BUILT WITH?
+        summary: Responsive Tools is a simple set of tools for building responsive sites and apps. All of my templates at HTML5 UP are built using these tools.
 
 
   banner:
-    headline: "USE THIS SPACE FOR "
-    emphasis: "PROFOUND THOUGHTS."
-    subline: "OR AN ENORMOUS AD. WHATEVER."
+    headline: USE THIS SPACE FOR
+    emphasis: PROFOUND THOUGHTS.
+    subline: OR AN ENORMOUS AD. WHATEVER.
 
 
 
   main_article1:
-    headline: "I DON’T WANT TO SAY IT’S THE ALIENS ..."
-    subline: "BUT IT’S THE ALIENS."
+    headline: I DON’T WANT TO SAY IT’S THE ALIENS ...
+    subline: BUT IT’S THE ALIENS.
     sections:
       -
-        title: "I MEAN ISN'T IT POSSIBLE?"
-        summary: "Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada in tristique.."
+        title: I MEAN ISNT IT POSSIBLE?
+        summary: Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada in tristique..
     button:
-      text: "Continue Reading"
-      color: "primary"
-      type: "rectangle"
-      icon: "file"
+      text: Continue Reading
+      color: primary
+      type: rectangle
+      icon: file
 
   main_article2:
-    headline: "BY THE WAY, MANY THANKS TO REGULARJANE"
-    subline: " FOR THESE AWESOME DEMO PHOTOS"
+    headline: BY THE WAY, MANY THANKS TO REGULARJANE
+    subline:  FOR THESE AWESOME DEMO PHOTOS
     sections:
       -
-        title: "YOU SHOULD PROBABLY CHECK OUT HER WORK?"
-        summary: "Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur leo nibh, rutrum malesuada."
+        title: YOU SHOULD PROBABLY CHECK OUT HER WORK?
+        summary: Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur leo nibh, rutrum malesuada.
     button:
-      text: "Continue Reading"
-      color: "primary"
-      type: "rectangle"
-      icon: "file"
+      text: Continue Reading
+      color: primary
+      type: rectangle
+      icon: file
   footer:
-    headline: "Questions or Comments? ."
-    emphasis: "Get in touch:"
+    headline: Questions or Comments? .
+    emphasis: Get in touch:
     form:
-      name: "Name"
-      email: "Email"
-      message: "Message"
+      name: Name
+      email: Email
+      message: Message
     button:
-      text: "Send Message"
-      color: "primary"
-      type: "rectangle"
-      icon: "envelope"
-    summary: "Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada."
+      text: Send Message
+      color: primary
+      type: rectangle
+      icon: envelope
+    summary: Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada.
     links:
       -
-        icon: "home"
-        icon_type: "s"
-        text: "1234 Somewhere Road
+        icon: home
+        icon_type: s
+        text: 1234 Somewhere Road
                Nashville, TN 00000
-               USA."
+               USA.
       -
-        icon:  "phone"
-        icon_type: "s"
-        text: "(000) 000-0000"
+        icon:  phone
+        icon_type: s
+        text: (000) 000-0000
       -
-        icon: "envelope"
-        icon_type: "s"
-        text: "info@untitled.tld"
+        icon: envelope
+        icon_type: s
+        text: info@untitled.tld
       -
-        icon: "twitter"
-        icon_type: "b"
-        text: "@untitled"
+        icon: twitter
+        icon_type: b
+        text: '@untitled'
       -
-        icon: "instagram"
-        icon_type: "b"
-        text: "instagram.com/untitled"
+        icon: instagram
+        icon_type: b
+        text: instagram.com/untitled
       -
-        icon: "dribbble"
-        icon_type: "b"
-        text: "dribbble.com/untitled"
+        icon: dribbble
+        icon_type: b
+        text: dribbble.com/untitled
       -
-        icon: "facebook"
-        icon_type: "b"
-        text: "facebook.com/untitled."
+        icon: facebook
+        icon_type: b
+        text: facebook.com/untitled.
     credits:
       -
-        credit: "© Untitled. All rights reserved."
+        credit: © Untitled. All rights reserved.
       -
-        credit: "Design: HTML5 UP"
+        credit: 'Design: HTML5 UP'
       -
-        credit: "Demo images: regularjane"
+        credit: 'Demo images: regularjane'
 
 
 
@@ -130,3 +130,6 @@ intro_page:
 
 
 
+#Kill All Quotes - No Need fors Quotes in YML /Put in Docs
+
+#HTML DOUBLE QUOTE IF NOT SINGLE
