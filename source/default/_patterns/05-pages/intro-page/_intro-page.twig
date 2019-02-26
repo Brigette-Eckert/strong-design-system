@@ -9,33 +9,27 @@
  */
 #}
  {% extends '@templates/_basic-page.twig' %}
-<div class="intro-page">
+
   {% block content %}
+    <div class="intro-page">
 
-    {% include '@organisms/_featured-article-grid.twig' with
-      { featured_article_grid: intro_page.featured_article_grid } %}
+      {% include '@organisms/_featured-article-grid.twig' with
+        { featured_article_grid: intro_page.featured_article_grid } %}
 
-    {% include '@molecules/_banner.twig' with
-      { banner: intro_page.banner } %}
-
-
-    {#Side Bar#}
+      {% include '@molecules/_banner.twig' with
+        { banner: intro_page.banner } %}
 
 
-    {% include '@organisms/_main-article.twig' with
-      { main_article: intro_page.main_article1 } %}
+      {#Side Bar#}
 
-    <hr>
-    <hr>
 
-    {% include '@organisms/_main-article.twig' with
-      { main_article: intro_page.main_article2 } %}
+      {% include '@organisms/_main-article.twig' with
+        { main_article: intro_page.main_article1 } %}
 
+      <hr>
+      <hr>
+
+      {% include '@organisms/_main-article.twig' with
+        { main_article: intro_page.main_article2 } %}
+    </div>
   {% endblock content %}
-</div>
-
-
-{#TODO: #}
-
-{#Header #}
-{#Footer - In template rather than every page - move from page and into template  #}

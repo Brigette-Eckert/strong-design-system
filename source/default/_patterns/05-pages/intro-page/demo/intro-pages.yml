@@ -26,6 +26,7 @@ intro_page:
       -
         title: Okay, so what is this?
         summary: This is Strongly Typed, a free, fully responsive site template by HTML5 UP. Free for personal and commercial use under the CCA 3.0 license.
+        img: 'source/default/_patterns/05-pages/intro-page/demo/toast.jpg'
       -
         title: NICE! WHAT IS HTML5 UP?
         summary: HTML5 UP is a side project of AJ’s (= me). I started it as a way to both test my responsive tools and sharpen up my coding and design skills a bit.

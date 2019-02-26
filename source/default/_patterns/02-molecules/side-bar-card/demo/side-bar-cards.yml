@@ -1,4 +1,4 @@
 side_bar_card:
-  date: "Risus 12"
-  title: "Aliquam pretium dui."
-  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non libero vel urna congue placerat. Nulla gravida egestas finibus. Quisque mi velit, tempor nec lectus a, tristique efficitur purus. Etiam tincidunt lacus at convallis laoreet. Nam non eleifend elit, congue fermentum purus. Pellentesque volutpat enim at dui feugiat, in volutpat magna tincidunt."
+  date: Risus 12
+  title: Aliquam pretium dui.
+  summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non libero vel urna congue placerat. Nulla gravida egestas finibus. Quisque mi velit, tempor nec lectus a, tristique efficitur purus. Etiam tincidunt lacus at convallis laoreet. Nam non eleifend elit, congue fermentum purus. Pellentesque volutpat enim at dui feugiat, in volutpat magna tincidunt.

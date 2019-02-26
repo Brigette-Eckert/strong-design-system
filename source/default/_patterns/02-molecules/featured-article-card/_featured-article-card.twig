@@ -16,8 +16,8 @@
     <div class="featured-article-card__image-wrapper text-center">
       <a class="featured-article-card__image-link" href="#">
         {% include '@atoms/image/_image.twig' with {
-          imageStyleName: 'card',
-          img: card_image,
+          imageStyleName: featured_article_card.imageStyleName|default('card'),
+          img: featured_article_card.img,
           class: "featured-article-card__img"
         } %}
 

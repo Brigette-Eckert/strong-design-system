@@ -97,3 +97,10 @@ $spacing-xxxl: 60px;
   border-radius: 100%;
   margin-right: ($spacing--sm * 1.5);
 }
+
+@mixin date-btn(){
+  @include btn-shared();
+  text-transform: uppercase;
+  letter-spacing: $letter-spacing--sm;
+  line-height: ($spacing--sm *3)
+}

@@ -4,5 +4,22 @@
 // are provided to this file via:
 //   webpack.particle.js: sass-loader.data|includePaths
 
-.side-bar-card {
+.side-bar-card__btn {
+  @include date-btn();
+  margin-top: $spacing-xxl;
+}
+
+.side-bar-card__title {
+  @include heading();
+  font-size: $fs--m;
+  letter-spacing: $letter-spacing--sm;
+  line-height: ($spacing--sm *3);
+  font-weight: $fw--600;
+  margin: $spacing--md auto;
+}
+
+
+.side-bar-card_summary {
+  font-weight: $fw--300;
+  line-height: ($spacing--sm *3);
 }

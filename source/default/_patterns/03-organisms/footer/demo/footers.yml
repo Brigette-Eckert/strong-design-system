@@ -1,52 +1,52 @@
 footer:
-  headline: "Nulla facilisi. Cras."
-  emphasis: "Etiam ut tortor"
+  headline: Nulla facilisi. Cras.
+  emphasis: Etiam ut tortor
   form:
-    name: "Lorem"
-    email: "Ipsum"
-    message: "Message"
+    name: Lorem
+    email: Ipsum
+    message: Message
   button:
-    text: "Aenean sit."
-    color: "primary"
-    type: "rectangle"
-    icon: "envelope"
-  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet accumsan diam. Nam ex orci, pulvinar et ornare rutrum, luctus sed nulla. Vivamus vitae odio ornare, tristique turpis eu, suscipit orci. Curabitur in nunc sollicitudin, dictum massa nec, blandit arcu. Etiam vehicula, dui ac consectetur tincidunt, augue turpis varius mi, id ullamcorper ex urna in purus. Suspendisse mollis justo sit amet mauris imperdiet, vitae tempus urna condimentum. Maecenas dictum sapien at pharetra pulvinar. Mauris eu dolor felis."
+    text: Aenean sit.
+    color: primary
+    type: rectangle
+    icon: envelope
+  summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet accumsan diam. Nam ex orci, pulvinar et ornare rutrum, luctus sed nulla. Vivamus vitae odio ornare, tristique turpis eu, suscipit orci. Curabitur in nunc sollicitudin, dictum massa nec, blandit arcu. Etiam vehicula, dui ac consectetur tincidunt, augue turpis varius mi, id ullamcorper ex urna in purus. Suspendisse mollis justo sit amet mauris imperdiet, vitae tempus urna condimentum. Maecenas dictum sapien at pharetra pulvinar. Mauris eu dolor felis.
   links:
     -
-      icon: "home"
-      icon_type: "s"
-      text: "Lorem ipsum dolor sit amet."
+      icon: home
+      icon_type: s
+      text: Lorem ipsum dolor sit amet.
     -
-      icon:  "phone"
-      icon_type: "s"
-      text: "Nam"
+      icon:  phone
+      icon_type: s
+      text: Nam
     -
-      icon: "envelope"
-      icon_type: "s"
-      text: "non quam"
+      icon: envelope
+      icon_type: s
+      text: non quam
     -
-      icon: "twitter"
-      icon_type: "b"
-      text: "aliquet"
+      icon: twitter
+      icon_type: b
+      text: aliquet
     -
-      icon: "instagram"
-      icon_type: "b"
-      text: " laoreet"
+      icon: instagram
+      icon_type: b
+      text:  laoreet
     -
-      icon: "dribbble"
-      icon_type: "b"
-      text: "Sed pellentesque"
+      icon: dribbble
+      icon_type: b
+      text: Sed pellentesque
     -
-      icon: "facebook"
-      icon_type: "b"
-      text: "mauris est, in."
+      icon: facebook
+      icon_type: b
+      text: mauris est, in.
   credits:
     -
-      credit: "Ut semper est."
+      credit: Ut semper est.
     -
-      credit: "Vestibulum massa diam."
+      credit: Vestibulum massa diam.
     -
-      credit: "Aliquam tristique ante."
+      credit: Aliquam tristique ante.
 
 
 

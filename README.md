@@ -161,9 +161,6 @@ FAQ/COMMON PROBLEMS:
      source/default/_patterns/01-atoms/svgicon/fontawesome.js
 
 
-TODO: 
-  Rename Colors - to pratical names if possible
-  Add in font awesome icons that are missing    
 
 
 
