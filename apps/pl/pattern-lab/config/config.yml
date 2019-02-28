@@ -89,6 +89,7 @@ plugins:
           - ../../../source/default/_patterns/03-organisms/header
           - ../../../source/default/_patterns/03-organisms/main-article
           - ../../../source/default/_patterns/03-organisms/navbar
+          - ../../../source/default/_patterns/03-organisms/sidebar
       templates:
         paths:
           - ../../../source/default/_patterns/04-templates

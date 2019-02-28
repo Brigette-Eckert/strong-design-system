@@ -1,0 +1,34 @@
+{#
+/**
+ * @file
+ * sidebar
+ *
+ * Available variables for sidebar:
+ *    - sidebar.variable_name [variable_type]: Description of the variable. Example below.
+ *    - sidebar.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+<div class="sidebar">
+  <div class="sidebar__date-cards">
+    {% for card in sidebar.date_cards %}
+      {% include '@molecules/_side-bar-card.twig' with {
+        side_bar_card: card
+      } %}
+    {% endfor %}
+
+  </div>
+
+  <div class="sidebar__img-cards">
+
+    {% for card in sidebar.img_cards %}
+      {% include '@molecules/_side-bar-img-card.twig' with {
+        side_bar_img_card: card
+      } %}
+    {% endfor %}
+
+  </div>
+
+</div>
+
+
