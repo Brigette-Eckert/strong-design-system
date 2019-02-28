@@ -7,6 +7,9 @@ import $ from 'jquery';
 // Module dependencies
 import 'protons';
 
+// Module static assets
+import './demo/cityline.jpg';
+
 // Module styles
 import './_banner.scss';
 

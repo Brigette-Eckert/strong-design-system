@@ -5,11 +5,6 @@
 //   webpack.particle.js: sass-loader.data|includePaths
 
 
-.banner-image--bg1  {
-  //background: url('./demo/banner.jpg') no-repeat;
-  background: url('https://placekitten.com/1920/524');
-}
-
 //TODO: REFACTOR INTO MIXIN
 .banner__header {
   color: $c-white;

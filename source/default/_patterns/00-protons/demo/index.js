@@ -6,6 +6,8 @@ import tables from './tables.twig';
 import type from './type.twig';
 import welcome from './welcome.twig';
 
+// TODO: include astrogoat.png ref
+
 export default {
   borders,
   breakpoints,

@@ -27,14 +27,15 @@
   <div class="main-article__image-wrapper">
     <a class="main-article__image-link" href="#">
       {% include '@atoms/image/_image.twig' with {
-        imageStyleName: 'medium',
-        img: main_article_image,
-        class: "main-article-card__img"
+        imageStyleName: main_article.imageStyleName|default('medium'),
+        img: main_article.img,
+        class: 'main-article-card__img'
       } %}
     </a>
   </div>
 
-  {% for section in main_article.sections  %}
+
+  {% for section in main_article.sections %}
     <div class="main-article__text-wrapper">
       <h3 class="main-article__title">{{ section.title }}</h3>
       <p class="main-article__summary">{{ section.summary }}</p>

@@ -55,6 +55,7 @@ $spacing-xxxl: 60px;
   font-size: $fs--m;
   font-weight: $fw--300;
   margin-bottom: 50px;
+  line-height: ($spacing--sm * 3);
 }
 
 @mixin page-title() {

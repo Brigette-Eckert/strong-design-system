@@ -14,21 +14,19 @@
     <div class="col">
       <h3 class="side-bar-img-card__title">{{ side_bar_img_card.title }}</h3>
       <div class="side-bar-img-card__image-text-wrapper">
-        {#<div class="side-bar-img-card__image-wrapper">#}
           <a class="side-bar-img-card__image-link" href="#">
             {% include '@atoms/image/_image.twig' with {
               imageStyleName: 'thumbnail',
               img: card_image,
               class: "side-bar-img-card__img"
             } %}
-
           </a>
-        {#</div>#}
-
         <p class="side-bar-img-card__summary">{{ side_bar_img_card.summary }}</p>
       </div>
-
+      {% include '@atoms/_icon-button.twig' with {
+        icon_button: side_bar_img_card.button
+      } %}
     </div>
-
   </div>
+
 </div>

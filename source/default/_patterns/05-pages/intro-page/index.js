@@ -7,6 +7,15 @@ import $ from 'jquery';
 // Module dependencies
 import 'protons';
 
+// Module static assets
+import './demo/books.jpg';
+import './demo/toast.jpg';
+import './demo/sakura.jpg';
+import './demo/journals.jpg';
+import './demo/leaf.jpg';
+import './demo/globe.jpg';
+import './demo/record.jpg';
+
 // Module styles
 import './_intro-page.scss';
 

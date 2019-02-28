@@ -10,16 +10,10 @@
 }
 
 .side-bar-card__title {
-  @include heading();
-  font-size: $fs--m;
-  letter-spacing: $letter-spacing--sm;
-  line-height: ($spacing--sm *3);
-  font-weight: $fw--600;
-  margin: $spacing--md auto;
+  @include article_heading();
 }
 
 
 .side-bar-card_summary {
-  font-weight: $fw--300;
-  line-height: ($spacing--sm *3);
+  @include article_summary();
 }

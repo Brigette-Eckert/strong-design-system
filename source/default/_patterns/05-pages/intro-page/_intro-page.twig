@@ -8,28 +8,23 @@
  *    - intro_page.invert [bool]: When set, colors will be inverted for light display on dark background.
  */
 #}
- {% extends '@templates/_basic-page.twig' %}
+{% extends '@templates/_basic-page.twig' %}
 
-  {% block content %}
-    <div class="intro-page">
+{% block content %}
+  {% include '@organisms/_featured-article-grid.twig' with {
+    featured_article_grid: intro_page.featured_article_grid,
+  } %}
 
-      {% include '@organisms/_featured-article-grid.twig' with
-        { featured_article_grid: intro_page.featured_article_grid } %}
+  {% include '@molecules/_banner.twig' with {
+    banner: intro_page.banner,
+  } %}
 
-      {% include '@molecules/_banner.twig' with
-        { banner: intro_page.banner } %}
+  {% include '@organisms/_main-article.twig' with {
+    main_article: intro_page.main_article1,
+  } %}
 
+  {% include '@organisms/_main-article.twig' with {
+    main_article: intro_page.main_article2,
+  } %}
+{% endblock content %}
 
-      {#Side Bar#}
-
-
-      {% include '@organisms/_main-article.twig' with
-        { main_article: intro_page.main_article1 } %}
-
-      <hr>
-      <hr>
-
-      {% include '@organisms/_main-article.twig' with
-        { main_article: intro_page.main_article2 } %}
-    </div>
-  {% endblock content %}

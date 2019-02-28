@@ -26,25 +26,29 @@ intro_page:
       -
         title: Okay, so what is this?
         summary: This is Strongly Typed, a free, fully responsive site template by HTML5 UP. Free for personal and commercial use under the CCA 3.0 license.
-        img: 'source/default/_patterns/05-pages/intro-page/demo/toast.jpg'
+        img: '../../../assets/books.jpg'
       -
         title: NICE! WHAT IS HTML5 UP?
         summary: HTML5 UP is a side project of AJ’s (= me). I started it as a way to both test my responsive tools and sharpen up my coding and design skills a bit.
+        img: '../../../assets/toast.jpg'
       -
         title: WHATS THIS BUILT WITH?
         summary: Responsive Tools is a simple set of tools for building responsive sites and apps. All of my templates at HTML5 UP are built using these tools.
+        img: '../../../assets/sakura.jpg'
 
 
   banner:
     headline: USE THIS SPACE FOR
     emphasis: PROFOUND THOUGHTS.
     subline: OR AN ENORMOUS AD. WHATEVER.
+    img: '../../../assets/cityline.jpg'
 
 
 
   main_article1:
     headline: I DON’T WANT TO SAY IT’S THE ALIENS ...
-    subline: BUT IT’S THE ALIENS.
+    subline: BUT IT’S THE ALIENS
+    img: '../../../assets/record.jpg'
     sections:
       -
         title: I MEAN ISNT IT POSSIBLE?
@@ -58,6 +62,7 @@ intro_page:
   main_article2:
     headline: BY THE WAY, MANY THANKS TO REGULARJANE
     subline:  FOR THESE AWESOME DEMO PHOTOS
+    img: "../../../assets/journals.jpg"
     sections:
       -
         title: YOU SHOULD PROBABLY CHECK OUT HER WORK?
@@ -119,18 +124,3 @@ intro_page:
       -
         credit: 'Demo images: regularjane'
 
-
-
-
-
-
-
-
-
-
-
-
-
-#Kill All Quotes - No Need fors Quotes in YML /Put in Docs
-
-#HTML DOUBLE QUOTE IF NOT SINGLE
