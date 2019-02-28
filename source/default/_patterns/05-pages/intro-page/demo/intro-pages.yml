@@ -123,4 +123,40 @@ intro_page:
         credit: 'Design: HTML5 UP'
       -
         credit: 'Demo images: regularjane'
+  sidebar:
+    date_cards:
+      -
+        date: July 30
+        title: Just Another Post
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non libero vel urna congue placerat. Nulla gravida egestas finibus. Quisque mi velit, tempor nec lectus a, tristique efficitur purus. Etiam tincidunt lacus at convallis laoreet. Nam non eleifend elit, congue fermentum purus. Pellentesque volutpat enim at dui feugiat, in volutpat magna tincidunt.
+      -
+        date: July 28
+        title: And Another Post
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non libero vel urna congue placerat. Nulla gravida egestas finibus. Quisque mi velit, tempor nec lectus a, tristique efficitur purus. Etiam tincidunt lacus at convallis laoreet. Nam non eleifend elit, congue fermentum purus. Pellentesque volutpat enim at dui feugiat, in volutpat magna tincidunt.
+      -
+        date: July 24
+        title: One More Post.
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra quis enim non sollicitudin. Etiam in elementum massa. Donec facilisis ac odio porttitor cursus. Integer suscipit pretium auctor. Duis nec auctor dui, at feugiat arcu. Cras pulvinar hendrerit dolor quis facilisis. In ultricies dapibus hendrerit. Vestibulum leo ipsum, tincidunt id tellus et, accumsan malesuada risus. Nunc quis massa in tortor ornare aliquam quis et est. Proin id lectus non nisl dictum sollicitudin. Vestibulum molestie in lectus ut molestie.
+
+    img_cards:
+      -
+        title: Something of Note.
+        summary: Cras consequat, dolor in semper accumsan, lectus ipsum semper sem, ut pellentesque ex massa eget ante. Cras tincidunt fringilla fringilla. Integer vestibulum eu nulla non tempus. Nulla id ultricies libero. In hac habitasse platea dictumst. Cras posuere tortor diam, id laoreet augue vestibulum vel. Suspendisse at turpis eu lorem sollicitudin pretium. Suspendisse ullamcorper tortor tincidunt lacus ullamcorper, mollis tincidunt arcu hendrerit.
+        img: "../../../assets/globe.jpg"
+        button:
+          text: Learn More.
+          color: primary
+          type: rectangle
+          icon: file
+      -
+        title: Something of Less Note.
+        summary: Cras consequat, dolor in semper accumsan, lectus ipsum semper sem, ut pellentesque ex massa eget ante. Cras tincidunt fringilla fringilla. Integer vestibulum eu nulla non tempus. Nulla id ultricies libero. In hac habitasse platea dictumst. Cras posuere tortor diam, id laoreet augue vestibulum vel. Suspendisse at turpis eu lorem sollicitudin pretium. Suspendisse ullamcorper tortor tincidunt lacus ullamcorper, mollis tincidunt arcu hendrerit.
+        img: "../../../assets/leaf.jpg"
+        button:
+          text: Learn More.
+          color: primary
+          type: rectangle
+          icon: file
+
+
 
