@@ -1,3 +1,50 @@
 // The non-printing variables, functions, and mixins of 00-protons/variables
 // are provided to this file via:
 //   webpack.particle.js: sass-loader.data|includePaths
+.footer {
+  background-color: $c-lightest;
+  padding-top: 104px;
+  padding-bottom: 140px;
+  border-top: $c-light 2px solid;
+}
+
+.footer__heading {
+  //@include section_heading();
+  font-family: $ff--sourcesans;
+  color: $c-dark;
+  font-size: 29px;
+  letter-spacing: 4px;
+  line-height: 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 43px;
+}
+
+.footer__summary {
+  padding-left: 50px;
+}
+
+.footer__summary--paragraph {
+  font-size: 17px;
+  font-family: $ff--sourcesans;
+  color: $c-dark;
+  font-weight: 300;
+  line-height: 29px;
+}
+
+.footer__credits--list {
+  list-style: none;
+}
+
+.footer__form--message-input {
+  margin-top: 25px;
+}
+
+.footer__credits--list {
+  justify-content: center;
+}
+
+.footer--credit--item:not(:first-of-type) {
+  margin-left: 18px;
+  padding-left: 18px;
+}

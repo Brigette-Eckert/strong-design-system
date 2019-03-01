@@ -1,1 +1,85 @@
-no_sidebar_page: ''
+no_sidebar_page:
+  header:
+    title: Strongly Typed
+    eyebrow: A RESPONSIVE HTML5 SITE TEMPLATE. MANUFACTURED BY HTML5 UP.
+    navbar:
+      -
+        icon: home
+        text: Introduction
+      -
+        icon:  chart-bar
+        text: Dropdown
+      -
+        icon: cog
+        text: Left Sidebar
+      -
+        icon: retweet
+        text: Right Sidebar
+      -
+        icon: sitemap
+        text: No Sidebar
+  footer:
+    headline: Questions or Comments? .
+    emphasis: Get in touch:
+    form:
+      name: Name
+      email: Email
+      message: Message
+    button:
+      text: Send Message
+      color: primary
+      type: rectangle
+      icon: envelope
+    summary: Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada.
+    links:
+      -
+        icon: home
+        icon_type: s
+        text: 1234 Somewhere Road
+               Nashville, TN 00000
+               USA.
+      -
+        icon:  phone
+        icon_type: s
+        text: (000) 000-0000
+      -
+        icon: envelope
+        icon_type: s
+        text: info@untitled.tld
+      -
+        icon: twitter
+        icon_type: b
+        text: '@untitled'
+      -
+        icon: instagram
+        icon_type: b
+        text: instagram.com/untitled
+      -
+        icon: dribbble
+        icon_type: b
+        text: dribbble.com/untitled
+      -
+        icon: facebook
+        icon_type: b
+        text: facebook.com/untitled.
+    credits:
+      -
+        credit: © Untitled. All rights reserved.
+      -
+        credit: 'Design: HTML5 UP'
+      -
+        credit: 'Demo images: regularjane'
+  main_article:
+    headline: Behold! This is the No Sidebar Layout!
+    subline: With no sidebar at all!
+    img: "../../../assets/journals.jpg"
+    sections:
+      -
+        title: and yeah, that's basically it
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dapibus ac erat sit amet molestie. Curabitur vitae nunc a quam iaculis bibendum vitae a diam. Proin volutpat erat justo, et dignissim quam condimentum sit amet. Proin ut metus sed urna interdum elementum. Sed ut dictum arcu, eget convallis nisi. Nunc ullamcorper nisl non magna aliquet, vel ultricies eros dapibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Donec sit amet lectus lorem. Phasellus nec lobortis tortor, vel sagittis elit. Mauris egestas luctus auctor. Fusce nec neque eu felis consequat rhoncus.
+      -
+        title: Morbi congue ut ex et vehicula
+        summary: Prttitor pretium ut ut ante. Fusce vitae lobortis nunc. Nam sed sem quis mauris condimentum elementum vitae eget ex. Fusce tincidunt dui at nibh pretium rhoncus. Nam id hendrerit purus. Donec faucibus, nulla gravida dignissim vestibulum, orci elit tristique urna, ac aliquam libero leo ac nisi. Donec posuere tortor sed tincidunt elementum. Aenean elementum blandit mi sit amet venenatis. Maecenas semper laoreet massa, at ornare enim hendrerit at. Phasellus molestie dolor magna, at lacinia sem volutpat non. Mauris condimentum odio vitae sagittis laoreet. Integer eleifend enim non sagittis laoreet. Quisque justo mi, semper ac rhoncus at, molestie eu lacus.
+      -
+        title: Curabitur sollicitudin porta justo.
+        summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae mi vel dolor finibus accumsan vitae nec ligula. Integer eget augue sit amet lectus bibendum mollis. Mauris sit amet nisl in augue tempus lobortis eu sit amet massa. Aliquam erat volutpat. Aliquam a lorem non neque ultrices tempus. Sed odio nunc, dapibus at felis ac, consectetur dignissim ante. Phasellus est odio, viverra a justo ut, ultrices sagittis nisl. Nunc quis pellentesque tortor. Sed blandit lacus sit amet diam euismod, eget finibus tortor malesuada. Mauris non risus aliquam, eleifend nisl ac, vehicula enim. Fusce finibus orci at arcu volutpat, nec sollicitudin massa scelerisque. Nam sed arcu mattis, volutpat sem id, ultricies mi. Integer suscipit mauris sed tortor feugiat luctus non quis erat.

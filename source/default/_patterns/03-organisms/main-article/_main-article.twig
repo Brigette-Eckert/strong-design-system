@@ -43,9 +43,12 @@
   {% endfor %}
 
 
-  {% include '@atoms/_icon-button.twig' with {
-    icon_button: main_article.button
-  } %}
+  {% if main_article.button %}
+    {% include '@atoms/_icon-button.twig' with {
+      icon_button: main_article.button
+    } %}
+  {% endif %}
+
 
 </div> <!-- /.main-article -->
 

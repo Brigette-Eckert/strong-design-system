@@ -10,7 +10,7 @@ footer:
     color: primary
     type: rectangle
     icon: envelope
-  summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet accumsan diam. Nam ex orci, pulvinar et ornare rutrum, luctus sed nulla. Vivamus vitae odio ornare, tristique turpis eu, suscipit orci. Curabitur in nunc sollicitudin, dictum massa nec, blandit arcu. Etiam vehicula, dui ac consectetur tincidunt, augue turpis varius mi, id ullamcorper ex urna in purus. Suspendisse mollis justo sit amet mauris imperdiet, vitae tempus urna condimentum. Maecenas dictum sapien at pharetra pulvinar. Mauris eu dolor felis.
+  summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet accumsan diam. Curabitur in nunc sollicitudin, dictum massa nec, blandit arcu. Etiam vehicula, dui ac consectetur tincidunt, augue turpis varius mi. Mauris eu dolor felis.
   links:
     -
       icon: home

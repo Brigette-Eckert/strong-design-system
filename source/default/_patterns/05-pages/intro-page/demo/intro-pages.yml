@@ -72,57 +72,6 @@ intro_page:
       color: primary
       type: rectangle
       icon: file
-  footer:
-    headline: Questions or Comments? .
-    emphasis: Get in touch:
-    form:
-      name: Name
-      email: Email
-      message: Message
-    button:
-      text: Send Message
-      color: primary
-      type: rectangle
-      icon: envelope
-    summary: Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada.
-    links:
-      -
-        icon: home
-        icon_type: s
-        text: 1234 Somewhere Road
-               Nashville, TN 00000
-               USA.
-      -
-        icon:  phone
-        icon_type: s
-        text: (000) 000-0000
-      -
-        icon: envelope
-        icon_type: s
-        text: info@untitled.tld
-      -
-        icon: twitter
-        icon_type: b
-        text: '@untitled'
-      -
-        icon: instagram
-        icon_type: b
-        text: instagram.com/untitled
-      -
-        icon: dribbble
-        icon_type: b
-        text: dribbble.com/untitled
-      -
-        icon: facebook
-        icon_type: b
-        text: facebook.com/untitled.
-    credits:
-      -
-        credit: © Untitled. All rights reserved.
-      -
-        credit: 'Design: HTML5 UP'
-      -
-        credit: 'Demo images: regularjane'
   sidebar:
     date_cards:
       -
@@ -157,6 +106,57 @@ intro_page:
           color: primary
           type: rectangle
           icon: file
+  footer:
+      headline: Questions or Comments? .
+      emphasis: Get in touch:
+      form:
+        name: Name
+        email: Email
+        message: Message
+      button:
+        text: Send Message
+        color: primary
+        type: rectangle
+        icon: envelope
+      summary: Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada.
+      links:
+        -
+          icon: home
+          icon_type: s
+          text: 1234 Somewhere Road
+                 Nashville, TN 00000
+                 USA.
+        -
+          icon:  phone
+          icon_type: s
+          text: (000) 000-0000
+        -
+          icon: envelope
+          icon_type: s
+          text: info@untitled.tld
+        -
+          icon: twitter
+          icon_type: b
+          text: '@untitled'
+        -
+          icon: instagram
+          icon_type: b
+          text: instagram.com/untitled
+        -
+          icon: dribbble
+          icon_type: b
+          text: dribbble.com/untitled
+        -
+          icon: facebook
+          icon_type: b
+          text: facebook.com/untitled.
+      credits:
+        -
+          credit: © Untitled. All rights reserved.
+        -
+          credit: 'Design: HTML5 UP'
+        -
+          credit: 'Demo images: regularjane'
 
 
 

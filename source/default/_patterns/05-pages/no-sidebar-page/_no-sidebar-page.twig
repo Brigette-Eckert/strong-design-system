@@ -9,6 +9,11 @@
  */
 #}
 
-<div class="no-sidebar-page">
-  <h1>no-sidebar-page component</h1>
-</div>
+{% extends '@templates/_basic-page.twig' %}
+
+{% block content %}
+  {% include '@organisms/_main-article.twig' with {
+    main_article: no_sidebar_page.main_article,
+  } %}
+
+{% endblock content %}
