@@ -5,7 +5,7 @@
   background-color: $c-lightest;
   padding-top: 104px;
   padding-bottom: 140px;
-  border-top: $c-light 2px solid;
+  border-top: $c-gray 2px solid;
 }
 
 .footer__heading {
@@ -34,6 +34,9 @@
 
 .footer__credits--list {
   list-style: none;
+  border-top: $c-gray 2px solid;
+  padding-top: 70px;
+  margin-top: 104px;
 }
 
 .footer__form--message-input {
@@ -44,7 +47,38 @@
   justify-content: center;
 }
 
+.footer--credit--item, .footer__btn-text {
+  font-size: 17px;
+  font-family: $ff--sourcesans;
+  font-weight: 300;
+  line-height: 28px;
+  color: $c-dark;
+}
+
 .footer--credit--item:not(:first-of-type) {
   margin-left: 18px;
   padding-left: 18px;
+  border-left: $c-gray 2px solid;
+}
+
+.footer--summary--social-links {
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 350px;
+  display: inline-flex;
+}
+
+.footer__btn-wrapper {
+  padding-top: 34px;
+  //margin-left: $spacing--sm;
+  //margin-right: $spacing--xl;
+}
+
+.footer__btn {
+  @include round-btn();
+}
+
+.header__svg {
+  height: $spacing--md;
+  width: $spacing--md;
 }
