@@ -51,6 +51,14 @@ $spacing-xxxl: 60px;
   margin: $spacing-xxl 0 $spacing--md 0;
 }
 
+@mixin footer_heading {
+  @include heading();
+  font-size: $fs--l;
+  letter-spacing: $spacing--xs;
+  line-height: $spacing-xxl;
+  margin-bottom: $spacing--xl;
+}
+
 @mixin article_summary() {
   font-size: $fs--m;
   font-weight: $fw--300;
@@ -73,6 +81,10 @@ $spacing-xxxl: 60px;
 @mixin picture-border() {
   border: 6px solid $c-light;
   max-width: 100%;
+}
+
+@mixin div-border-top() {
+  border-top: $c-gray 2px solid;
 }
 
 @mixin btn-shared() {
