@@ -14,27 +14,27 @@
 
 .footer__summary {
   @include media-breakpoint-up(lg) {
-    padding-left: 50px;
+    padding-left: $spacing-xxl;
   }
 }
 
-.footer__summary--paragra ph {
-  font-size: 17px;
+.footer__summary--paragraph {
+  font-size: $fs--s;
   font-family: $ff--sourcesans;
   color: $c-dark;
-  font-weight: 300;
-  line-height: 29px;
+  font-weight: $fw--300;
+  line-height: $spacing--md;
 }
 
 .footer__credits--list {
   list-style: none;
-  border-top: $c-gray 2px solid;
-  padding-top: 70px;
-  margin-top: 104px;
+  padding-top: ($spacing--lg*2);
+  margin-top: ($spacing-xxl*2);
+  @include div-border-top();
 }
 
 .footer__form--message-input {
-  margin-top: 25px;
+  margin-top: $spacing--md;
 }
 
 .footer__credits--list {
@@ -42,17 +42,17 @@
 }
 
 .footer--credit--item, .footer__btn-text {
-  font-size: 17px;
+  font-size: $fs--s;
   font-family: $ff--sourcesans;
-  font-weight: 300;
-  line-height: 28px;
+  font-weight: $fw--300;
+  line-height: $spacing--md;
   color: $c-dark;
 }
 
 .footer--credit--item:not(:first-of-type) {
-  margin-left: 18px;
-  padding-left: 18px;
-  border-left: $c-gray 2px solid;
+  margin-left: ($spacing--sm*2);
+  padding-left: ($spacing--sm*2);
+  @include div-border-left();
 }
 
 .footer--summary--social-links {
@@ -60,14 +60,12 @@
   display: inline-flex;
   @include media-breakpoint-up(sm) {
     flex-wrap: wrap;
-    max-height: 330px;
+    max-height: ($spacing--lg*10);
   }
 }
 
 .footer__btn-wrapper {
-  padding-top: 34px;
-  //margin-left: $spacing--sm;
-  //margin-right: $spacing--xl;
+  padding-top: $spacing--lg;
 }
 
 .footer__btn {

@@ -1,23 +1,23 @@
 intro_page:
-  header:
-    title: Strongly Typed
-    eyebrow: A RESPONSIVE HTML5 SITE TEMPLATE. MANUFACTURED BY HTML5 UP.
-    navbar:
-      -
-        icon: home
-        text: Introduction
-      -
-        icon:  chart-bar
-        text: Dropdown
-      -
-        icon: cog
-        text: Left Sidebar
-      -
-        icon: retweet
-        text: Right Sidebar
-      -
-        icon: sitemap
-        text: No Sidebar
+#  header:
+#    title: Strongly Typed
+#    eyebrow: A RESPONSIVE HTML5 SITE TEMPLATE. MANUFACTURED BY HTML5 UP.
+#    navbar:
+#      -
+#        icon: home
+#        text: Introduction
+#      -
+#        icon:  chart-bar
+#        text: Dropdown
+#      -
+#        icon: cog
+#        text: Left Sidebar
+#      -
+#        icon: retweet
+#        text: Right Sidebar
+#      -
+#        icon: sitemap
+#        text: No Sidebar
 
   featured_article_grid:
     headline: Gentlemen, Behold! This is Strongly Typed!
@@ -107,7 +107,7 @@ intro_page:
           type: rectangle
           icon: file
   footer:
-      headline: Questions or Comments? .
+      headline: Questions or Comments?
       emphasis: Get in touch:
       form:
         name: Name

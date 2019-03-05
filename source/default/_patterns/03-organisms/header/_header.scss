@@ -5,29 +5,70 @@
 //   webpack.particle.js: sass-loader.data|includePaths
 
 .header__btn {
-  @include round-btn();
+  display: none;
+  @include media-breakpoint-up(lg){
+    display: inline-block;
+    @include round-btn();
+  }
 }
 
 .header__btn:hover {
-  background-color: $c-primary;
-  border-color: $c-primary;
+  @include media-breakpoint-up(lg) {
+    background-color: $c-primary;
+    border-color: $c-primary;
+  }
 }
 
 .header__btn-wrapper {
-  margin-left: $spacing--sm;
-  margin-right: $spacing--xl;
+  height: 44px;
+  border-top: black 1px solid;
+  border-bottom: black 1px solid;
+  @include media-breakpoint-up(lg){
+    margin-left: $spacing--sm;
+    margin-right: $spacing--xl;
+    border: none;
+  }
+
 }
 
 .header__svg {
-  height: $spacing--md;
-  width: $spacing--md;
+  display: none;
+  @include media-breakpoint-up(lg){
+    height: $spacing--md;
+    width: $spacing--md;
+    display: inline-block;
+  }
 }
 
 .header__navbar {
-  margin: $spacing--xl 0;
+  display: flex;
+  flex-direction: column;
+  background-color: $c-darkest;
+  overflow-y: scroll;
+  @include media-breakpoint-up(lg) {
+    background-color: white;
+    margin: $spacing--xl 0;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    overflow-y: unset;
+  }
+
 }
 
-.header__btn-text,
+.header__btn-text {
+  font-family: $ff--sourcesans;
+  text-transform: uppercase;
+  font-weight: $fw--600;
+  color: $c-white;
+  @include media-breakpoint-up(lg){
+    @include heading();
+    letter-spacing: $letter-spacing--sm;
+    line-height: $spacing--lg;
+  }
+}
+
+
 .header__eyebrow {
   @include heading();
   letter-spacing: $letter-spacing--sm;

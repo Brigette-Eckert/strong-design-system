@@ -87,6 +87,11 @@ $spacing-xxxl: 60px;
   border-top: $c-gray 2px solid;
 }
 
+
+@mixin div-border-left() {
+  border-left: $c-gray 2px solid;
+}
+
 @mixin btn-shared() {
   box-shadow: rgba(0, 0, 0, 0.125) ($spacing--xs/2) $spacing--xs 0 0;
 }

@@ -13,9 +13,37 @@
   <div class="basic-page__inner">
 
     {% block header %}
+
       {% include '@organisms/_header.twig' with {
-        header: intro_page.header
+        "header": {
+          title: "Strongly Typed",
+          eyebrow: "A RESPONSIVE HTML5 SITE TEMPLATE. MANUFACTURED BY HTML5 UP.",
+          navbar: [
+            {
+              icon: "home",
+              text: "Introduction"
+            },
+            {
+              icon: "chart-bar",
+              text: "Dropdown"
+            },
+
+            {
+              icon: "cog",
+              text: "Left Sidebar"
+            },
+            {
+              icon: "retweet",
+              text: "Right Sidebar"
+            },
+            {
+              icon: "sitemap",
+              text: "No Sidebar"
+            }
+          ]
+        }
       } %}
+
     {% endblock header %}
 
     {% block content %}{% endblock content %}
@@ -24,6 +52,67 @@
       {% include '@organisms/_footer.twig' with {
         footer: intro_page.footer
       } %}
+
+      {% include '@organisms/_footer.twig' with {
+
+        "footer": {
+          headline: "Questions or Comments?",
+          emphasis: "Get in touch:",
+          summary: "Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada.",
+          form:
+            {
+              name: "Name",
+              email: "Email",
+              message: "Message"
+            },
+          button: {
+            text: "Send Message",
+            color: "primary",
+            type: "rectangle",
+            icon: "envelope"
+          },
+          links: [
+            {
+              icon: "home",
+              icon_type: "s",
+              text: "1234 Somewhere Road Nashville, TN 00000 USA.",
+
+            },
+            {
+              icon: "phone",
+              icon_type: "s",
+              text: "(000) 000-0000"
+            },
+
+            {
+              icon: "envelope",
+              icon_type: "s",
+              text: "info@untitled.tld"
+            },
+            {
+              icon: "twitter",
+              icon_type: "b",
+              text: "@untitled"
+            },
+            {
+              icon: "instagram",
+              icon_type: "b",
+              text: "instagram.com/untitled"
+            },
+            {
+              icon: "dribbble",
+              icon_type: "b",
+              text: "dribbble.com/untitled"
+            },
+            {
+              icon: "facebook",
+              icon_type: "b",
+              text: "facebook.com/untitled"
+            }
+          ]
+        }
+      } %}
+
     {% endblock footer %}
 
   </div>
