@@ -6,9 +6,12 @@
 
 .header__btn {
   display: none;
-  @include media-breakpoint-up(lg){
+  @include media-breakpoint-up(lg) {
     display: inline-block;
     @include round-btn();
+    height: $spacing--lg;
+    width: $spacing--lg;
+    position: relative;
   }
 }
 
@@ -37,6 +40,9 @@
     height: $spacing--md;
     width: $spacing--md;
     display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 6px;
   }
 }
 

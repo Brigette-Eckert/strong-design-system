@@ -49,6 +49,10 @@
   color: $c-dark;
 }
 
+.footer__btn-text {
+  max-width: 200px;
+}
+
 .footer--credit--item:not(:first-of-type) {
   margin-left: ($spacing--sm*2);
   padding-left: ($spacing--sm*2);
@@ -70,9 +74,17 @@
 
 .footer__btn {
   @include round-btn();
+  display: inline-block;
+  height: $spacing--lg;
+  width: $spacing--lg;
+  position: relative;
 }
 
-.header__svg {
+.footer__svg {
   height: $spacing--md;
   width: $spacing--md;
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  right: 6px;
 }

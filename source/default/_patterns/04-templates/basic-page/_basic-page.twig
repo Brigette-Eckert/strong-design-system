@@ -49,9 +49,6 @@
     {% block content %}{% endblock content %}
 
     {% block footer %}
-      {% include '@organisms/_footer.twig' with {
-        footer: intro_page.footer
-      } %}
 
       {% include '@organisms/_footer.twig' with {
 
@@ -108,6 +105,17 @@
               icon: "facebook",
               icon_type: "b",
               text: "facebook.com/untitled"
+            }
+          ],
+          credits: [
+            {
+              credit: "© Untitled. All rights reserved."
+            },
+            {
+              credit: "Design: HTML5 UP"
+            },
+            {
+              credit: "Demo images: regularjane"
             }
           ]
         }

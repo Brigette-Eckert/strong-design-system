@@ -19,16 +19,27 @@
     banner: intro_page.banner,
   } %}
 
-  {% include '@organisms/_main-article.twig' with {
-    main_article: intro_page.main_article1,
-  } %}
 
-  {% include '@organisms/_main-article.twig' with {
-    main_article: intro_page.main_article2,
-  } %}
+  <div class="container">
+    <div class="row">
+      <div class="col-8">
+        {% include '@organisms/_main-article.twig' with {
+          main_article: intro_page.main_article2,
+        } %}
 
-  {% include '@organisms/_sidebar.twig' with {
-    sidebar: intro_page.sidebar,
-  } %}
+        {% include '@organisms/_main-article.twig' with {
+          main_article: intro_page.main_article1,
+        } %}
+      </div>
+
+      <div class="col-4">
+        {% include '@organisms/_sidebar.twig' with {
+          sidebar: intro_page.sidebar,
+        } %}
+      </div>
+
+    </div>
+  </div>
+
 {% endblock content %}
 

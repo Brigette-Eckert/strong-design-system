@@ -4,6 +4,10 @@
 // are provided to this file via:
 //   webpack.particle.js: sass-loader.data|includePaths
 
+.side-bar-img-card {
+  @include div-border-top();
+}
+
 .side-bar-img-card__img {
   @include picture-border();
 }
@@ -14,4 +18,11 @@
 
 .side-bar-img-card__summary {
   @include article_summary();
+  text-align: justify;
+}
+
+.side-bar-img-card__image-link {
+  float: left;
+  margin-bottom: $spacing--md;
+  margin-right: $spacing--md;
 }

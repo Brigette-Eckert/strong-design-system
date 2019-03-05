@@ -87,6 +87,9 @@ $spacing-xxxl: 60px;
   border-top: $c-gray 2px solid;
 }
 
+@mixin div-border-bottom() {
+  border-bottom: $c-gray 2px solid;
+}
 
 @mixin div-border-left() {
   border-left: $c-gray 2px solid;
