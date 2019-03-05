@@ -28,6 +28,7 @@ intro_page:
   main_article1:
     headline: I DON’T WANT TO SAY IT’S THE ALIENS ...
     subline: BUT IT’S THE ALIENS
+    border: bottom
     img: '../../../assets/record.jpg'
     sections:
       -
@@ -41,6 +42,7 @@ intro_page:
 
   main_article2:
     headline: BY THE WAY, MANY THANKS TO REGULARJANE
+    border: top
     subline:  FOR THESE AWESOME DEMO PHOTOS
     img: "../../../assets/journals.jpg"
     sections:

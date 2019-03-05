@@ -9,20 +9,22 @@
  */
 #}
 
+<div class="banner">
+  <div class="banner_wrapper text-center d-flex align-items-center justify-content-around" style="background-image: url({{ banner.img }})"> >
 
-<div class="banner text-center d-flex align-items-center justify-content-around" style="background-image: url({{ banner.img }})"> >
+    <i class="banner-image__icon-right icon--bracket"></i>
+    <div class="banner__header text-center d-inline-flex">
+      <h2 class="banner__header--headline">
+        {{ banner.headline }} <strong> {{ banner.emphasis }}</strong>
+      </h2>
+      <br/>
+      <h2 class="banner__header--subline">
+        {{ banner.subline }}
+      </h2>
+    </div>
+    <i class="banner-image__icon-left icon--bracket"></i>
 
-  <i class="banner-image__icon-right icon--bracket"></i>
-  <div class="banner__header text-center d-inline-flex">
-    <h2 class="banner__header--headline">
-      {{ banner.headline }} <strong> {{ banner.emphasis }}</strong>
-    </h2>
-    <br/>
-    <h2 class="banner__header--subline">
-      {{ banner.subline }}
-    </h2>
   </div>
-  <i class="banner-image__icon-left icon--bracket"></i>
 
 </div>
 

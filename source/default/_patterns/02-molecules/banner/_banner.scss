@@ -4,6 +4,13 @@
 // are provided to this file via:
 //   webpack.particle.js: sass-loader.data|includePaths
 
+.banner {
+  @include div-border-bottom;
+  @include div-border-top;
+  background-repeat: repeat-x;
+  padding-bottom: $spacing--xs;
+  padding-top: $spacing--xs;
+}
 
 //TODO: REFACTOR INTO MIXIN
 .banner__header {

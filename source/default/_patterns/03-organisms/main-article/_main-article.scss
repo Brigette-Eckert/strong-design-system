@@ -4,6 +4,15 @@
 // are provided to this file via:
 //   webpack.particle.js: sass-loader.data|includePaths
 
+.main-article--border-top {
+  @include div-border-top;
+}
+
+.main-article--border-bottom {
+  @include div-border-bottom;
+  margin-bottom: 10px;
+}
+
 .main-article__header {
   @include section_heading();
   line-height: 57px;
@@ -28,3 +37,4 @@
 .main-article__summary {
   @include article_summary();
 }
+

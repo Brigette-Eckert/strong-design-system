@@ -1,6 +1,7 @@
 main_article:
   headline: Fusce elementum urna at quam congue, sed dictum.
   subline: Nam vehicula odio at.
+  border: top
   sections:
     -
       title: Curabitur eu tortor eratcras?
