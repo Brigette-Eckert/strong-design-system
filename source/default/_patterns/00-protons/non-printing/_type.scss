@@ -43,6 +43,19 @@ $spacing-xxxl: 60px;
   margin: ($spacing-xxl * 2) 0 $spacing-xxl 0;
 }
 
+@mixin banner_heading() {
+  @include heading();
+  color: $c-white;
+  line-height: $spacing-xxl;
+  letter-spacing: $letter-spacing;
+  font-stretch: 100%;
+  font-weight: $fw--400;
+  height: ($spacing--xl*10.5);
+  display: inline-block;
+  align-items: center;
+
+}
+
 @mixin article_heading() {
   @include heading();
   font-size: $fs--m;

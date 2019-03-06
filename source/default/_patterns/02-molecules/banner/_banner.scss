@@ -12,18 +12,9 @@
   padding-top: $spacing--xs;
 }
 
-//TODO: REFACTOR INTO MIXIN
+
 .banner__header {
-  color: $c-white;
-  font-family: $ff--sourcesans;
-  line-height: 48px;
-  letter-spacing: 4px;
-  font-stretch: 100%;
-  text-transform: uppercase;
-  font-weight: 400;
-  height: 450px;
-  display: inline-block;
-  align-items: center;
+  @include banner_heading();
 }
 
 .banner-image__icon-right, .banner-image__icon-left {
