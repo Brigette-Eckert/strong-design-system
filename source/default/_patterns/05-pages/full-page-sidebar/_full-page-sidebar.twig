@@ -12,6 +12,25 @@
 {% extends '@templates/_basic-page.twig' %}
 
 {% block content %}
+  <div class="container">
+    <div class="row">
+
+      <div class="col-4">
+        {% include '@organisms/_sidebar.twig' with {
+          sidebar: full_page_sidebar.sidebar,
+        } %}
+      </div>
+
+      <div class="col-8">
+        {% include '@organisms/_main-article.twig' with {
+          main_article: full_page_sidebar.main_article,
+        } %}
+      </div>
+
+
+    </div>
+  </div>
+
 {% endblock content %}
 
 

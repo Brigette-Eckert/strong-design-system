@@ -15,7 +15,21 @@
       <button type="button" class="icon-button__btn--{{ icon_button.type }} btn btn-{{ icon_button.color }}">
         <i class="fas fa-{{ icon_button.icon }}" aria-hidden="true"></i>
         {{ icon_button.text | upper }}
+        <span></span>
       </button>
     </div>
   </div>
 </div>
+
+
+{#<a class="camp-header__telephone" href="tel:{{ item.telephone|url_encode }}">#}
+  {#<span class="camp-header__telephone-icon">#}
+    {#<i class="icon--mobile u-text--green--light" role="presentation" aria-hidden="true" focusable="false"></i>#}
+    {#<span class="camp-header__telephone-icon-text visually-hidden">#}
+      {#{{ 'Call '|t }}#}
+    {#</span>#}
+  {#</span>#}
+  {#<span class="camp-header__telephone-text">#}
+    {#{{ item.label ? item.label ~ ': ' ~ item.telephone : item.telephone }}#}
+  {#</span>#}
+{#</a>#}
