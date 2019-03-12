@@ -29,7 +29,7 @@ full_page_sidebar:
     img_cards:
       -
         title: Something of Note.
-        summary: Cras consequat, dolor in semper accumsan, lectus ipsum semper sem, ut pellentesque ex massa eget ante. Cras tincidunt fringilla fringilla.  
+        summary: Cras consequat, dolor in semper accumsan, lectus ipsum semper sem, ut pellentesque ex massa eget ante. Cras tincidunt fringilla fringilla.
         img: "../../../assets/globe.jpg"
         button:
           text: Learn More.
