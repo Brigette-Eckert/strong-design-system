@@ -14,8 +14,12 @@ icon_button_circle:
   icon: cog
   color: primary
   type: circle
+  screen_text: cog button
 
 icon_button_circle2:
   icon: rocket
   color: dark
   type: circle
+  screen_text: rocket button
+
+ #todo: Add screentext to other button's without text -refactor to if or?
