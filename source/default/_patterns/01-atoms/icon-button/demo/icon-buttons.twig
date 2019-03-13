@@ -1,7 +1,29 @@
-{% include '@atoms/_icon-button.twig' with
-  { icon_button: icon_button_rectangle }
-%}
+{% extends '@atoms/grid/_grid-1-up.twig' %}
+  {% set container = true %}
 
-{% include '@atoms/_icon-button.twig' with
-  { icon_button: icon_button_circle }
-%}
+  {% block column_1 %}
+
+      <h1> Rectangle Icon Button </h1>
+      {% include '@atoms/_icon-button.twig' with
+        { icon_button: icon_button_rectangle }
+      %}
+
+    {% include '@atoms/_icon-button.twig' with
+      { icon_button: icon_button_rectangle2 }
+    %}
+
+      <h1> Circle Icon Button </h1>
+      {% include '@atoms/_icon-button.twig' with
+        { icon_button: icon_button_circle }
+      %}
+
+    {% include '@atoms/_icon-button.twig' with
+      { icon_button: icon_button_circle2 }
+    %}
+
+
+  {% endblock %}
+
+
+
+

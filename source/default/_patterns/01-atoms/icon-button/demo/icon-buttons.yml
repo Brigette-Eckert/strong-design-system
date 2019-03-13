@@ -4,7 +4,18 @@ icon_button_rectangle:
   color: primary
   type: rectangle
 
+icon_button_rectangle2:
+  text: Aenean sit.
+  icon: envelope
+  color: dark
+  type: rectangle
+
 icon_button_circle:
-  icon: file
+  icon: cog
+  color: primary
+  type: circle
+
+icon_button_circle2:
+  icon: rocket
   color: dark
   type: circle
