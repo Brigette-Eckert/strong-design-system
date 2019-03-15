@@ -83,11 +83,18 @@ $spacing-xxxl: 60px;
   color: $c-primary;
   font-family: $ff--arvo;
   text-transform: uppercase;
-  font-size: $spacing-xxxl;
+  font-size: ($spacing--sm * 3);
   font-weight: $fw--700;
-  line-height: $spacing--lg;
-  letter-spacing: $letter-spacing--xl;
+  line-height: $spacing--xl;
+  letter-spacing: ($spacing--xs*2);
   text-shadow: rgba(0, 0, 0, 0.1) ($spacing--xs/2) $spacing--xs;
+  //height: auto;
+  //width: auto;
+  @include media-breakpoint-up(lg) {
+    font-size: $spacing-xxxl;
+    line-height: $spacing--lg;
+    letter-spacing: $letter-spacing--xl;
+  }
 }
 
 // Border Mixins
